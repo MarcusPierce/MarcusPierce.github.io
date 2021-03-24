@@ -1,22 +1,217 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://marcuspierce.github.io</id>
-    <title>毛胚房</title>
-    <updated>2021-03-24T06:30:56.708Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://marcuspierce.github.io"/>
-    <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
-    <subtitle>MarcusPierce 个人博客</subtitle>
-    <logo>https://marcuspierce.github.io/images/avatar.png</logo>
-    <icon>https://marcuspierce.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 毛胚房</rights>
-    <entry>
-        <title type="html"><![CDATA[What is Markdown]]></title>
-        <id>https://marcuspierce.github.io/post/what-is-markdown/</id>
-        <link href="https://marcuspierce.github.io/post/what-is-markdown/">
-        </link>
-        <updated>2021-03-24T06:29:17.000Z</updated>
-        <content type="html"><![CDATA[<p>Forked from https://github.com/younghz/Markdown</p>
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>What is Markdown | 毛胚房</title>
+
+<link rel="shortcut icon" href="https://marcuspierce.github.io/favicon.ico?v=1616567454415">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://marcuspierce.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            毛胚房
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1616567454415"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    What is Markdown
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-03-24 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>Forked from https://github.com/younghz/Markdown</p>
 <h2 id="主要内容">主要内容</h2>
 <blockquote>
 <h4 id="markdown是什么">Markdown<em>是什么</em>？</h4>
@@ -244,37 +439,65 @@ printf(&quot;Hello, Markdown.&quot;);<br>
 </tbody>
 </table>
 <p>关于其它扩展语法可参见具体工具的使用说明。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的网站 My websites]]></title>
-        <id>https://marcuspierce.github.io/post/wo-de-wang-zhan-my-websites/</id>
-        <link href="https://marcuspierce.github.io/post/wo-de-wang-zhan-my-websites/">
-        </link>
-        <updated>2021-03-24T04:32:09.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="my-personal-blog-and-mirror-sites-本博客与其镜像站">My Personal Blog and mirror sites 本博客与其镜像站</h3>
-<p><a href="https://marcuspierce.github.io/">GitHub Pages Origin</a> 原始地址</p>
-<p><a href="https://marcuspierce.gitee.io/">Gitee Pages Mirror</a> 适合国内访问</p>
-<p><a href="https://marcuspierce.netlify.app/">Netlify Mirror</a> 镜像备份</p>
-<h3 id="personal-music-sites-个人音乐站">Personal Music sites 个人音乐站</h3>
-<p><a href="https://unlock-music-lovat.vercel.app">加密音乐解锁</a> unlock-music Vercel部署站点</p>
-<p><a href="https://yes-play-music-gamma.vercel.app">在线音乐平台</a> YesPlayMusic Vercel部署站点</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lorem Ipsum]]></title>
-        <id>https://marcuspierce.github.io/post/lorem-ipsum/</id>
-        <link href="https://marcuspierce.github.io/post/lorem-ipsum/">
-        </link>
-        <updated>2021-03-24T03:29:31.000Z</updated>
-        <content type="html"><![CDATA[<h4 id="neque-porro-quisquam-est-qui-dolorem-ipsum-quia-dolor-sit-amet-consectetur-adipisci-velit">&quot;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;</h4>
-<h5 id="无人爱苦亦无人寻之欲之乃因其苦">&quot;无人爱苦，亦无人寻之欲之，乃因其苦...&quot;</h5>
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ante ipsum, consectetur dignissim mauris malesuada id. Mauris mattis lacus risus, vel tempus lacus dictum ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce et nulla massa. Sed ultrices tincidunt pellentesque. Quisque tellus ipsum, efficitur eget dolor vel, fringilla porta massa. Ut vitae pretium felis. Sed commodo erat sed sapien accumsan, at placerat enim accumsan. Nam metus sapien, auctor a ante ut, aliquet tempus leo. Vestibulum imperdiet libero tellus, eu vestibulum nulla rhoncus vitae. Donec facilisis, ipsum ornare blandit gravida, tellus nisl porta mauris, nec tempor turpis tellus at ante. Etiam feugiat elit a tempus imperdiet. Sed auctor luctus tellus eget pharetra. Maecenas scelerisque libero ut rutrum congue. Donec quis placerat purus.</p>
-<p>Phasellus quis efficitur dui. Aenean convallis dui sed dui eleifend hendrerit. Fusce neque lectus, vehicula eu rhoncus in, tristique a metus. Aenean venenatis tincidunt auctor. Duis hendrerit consectetur tellus scelerisque dictum. Maecenas ante urna, lacinia sit amet fringilla porttitor, posuere vel odio. Curabitur feugiat, ante vel semper feugiat, quam ante rhoncus augue, vitae imperdiet purus diam sollicitudin eros. Proin eleifend risus in sollicitudin tempus. Pellentesque eu luctus nunc, eget lobortis magna. Cras id lobortis neque. Donec vitae dui in elit ultricies pellentesque vel a lorem. Donec sit amet pretium dolor, at pharetra massa. Integer facilisis sem in dapibus interdum.</p>
-<p>Cras aliquam elit urna, nec fringilla diam euismod eu. Cras facilisis justo eu diam egestas volutpat. Donec dapibus, felis vel consectetur mattis, tortor ligula faucibus erat, non eleifend nibh ipsum eget est. Suspendisse cursus mi in laoreet tempus. Quisque eu libero dictum est sagittis sodales. Vivamus placerat ligula arcu, eu eleifend orci mattis sit amet. Maecenas urna libero, ornare non sagittis in, vestibulum vel elit. Mauris egestas fringilla ante in viverra.</p>
-<p>Nulla nec scelerisque massa. Praesent volutpat mollis mi, varius auctor magna molestie facilisis. Morbi non odio sed odio sollicitudin lacinia. Morbi vestibulum vulputate arcu et condimentum. Nullam sed fringilla mi. Pellentesque non vehicula ipsum, non elementum orci. In pulvinar nisl et leo vulputate ullamcorper. Sed enim massa, blandit sed feugiat id, gravida ut nibh. Sed eget leo malesuada est ultricies euismod.</p>
-<p>Vestibulum vel congue odio. Duis justo metus, vehicula ut rhoncus in, iaculis sit amet quam. Praesent eu accumsan neque. Morbi porttitor tempus felis. Quisque sed scelerisque lorem, quis vulputate leo. Suspendisse ut tellus ornare, rhoncus orci ac, dictum ex. Praesent maximus urna quis lacus congue varius. Aenean vitae blandit justo. Cras elit mi, congue a lacinia porttitor, pretium laoreet lacus. Suspendisse cursus diam vitae nisl lacinia rutrum. Aliquam venenatis iaculis lacinia.</p>
-]]></content>
-    </entry>
-</feed>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://marcuspierce.github.io/post/wo-de-wang-zhan-my-websites/" class="post-title gt-a-link">
+                    我的网站 My websites
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">MarcusPierce 个人博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/MarcusPierce" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.twitter.com/TheMarcusPierce" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://marcuspierce.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
