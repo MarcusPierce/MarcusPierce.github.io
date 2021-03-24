@@ -1,0 +1,80 @@
+
+name: 推送到Gitee&Github启用Cdn
+on: push
+
+env:
+  ################## github 设置 ###################################################
+  # 注意替换为你的 Github 用户名
+  GITHUB_USERNAME: MarcusPierce
+  # 注意替换为你的 Github 仓库
+  GITHUB_REPO: MarcusPierce.github.io
+  # 注意替换为你的 Github 仓库的分支(也就是Gridea设置的分支)
+  GITHUB_BRANCH: main
+  # 注意替换为你的 Github 仓库Url
+  GITHUB_URL: https://github.com/MarcusPierce/MarcusPierce.github.io
+  ################## gitee 设置 ####################################################
+  # 注意替换为你的 Gitee 用户名
+  GITEE_USERNAME: marcuspierce
+  # 注意替换为你的 Gitee 绑定的邮箱
+  GITEE_USER_EMAIL: 1813326545@qq.com
+  # 注意替换为你的 Gitee 仓库，仓库名严格区分大小写，请准确填写，否则会出错
+  GITEE_REPO: MarcusPierce
+  # 要部署的分支，默认是 master，若是其他分支，则需要指定（指定的分支必须存在）
+  GITEE_BRANCH: main
+  # 注意在 Settings->Secrets 配置 GITEE_PASSWORD
+  
+jobs: 
+  my-job: 
+    runs-on: ubuntu-latest
+    name: 工作流
+    steps: 
+    - name: 初始化环境
+      run: |
+        sudo mkdir -p /workdir
+        sudo chown $USER:$GROUPS /workdir
+        sudo apt install python
+    - name: 克隆代码
+      working-directory: /workdir
+      run: |
+        df -hT $PWD
+        git clone $GITHUB_URL -b $GITHUB_BRANCH gitee-blog
+        git clone $GITHUB_URL -b $GITHUB_BRANCH github-blog
+    - name: 运行python
+      run: |
+        python /workdir/gitee-blog/.github/re-gitee.py
+        python /workdir/github-blog/.github/re-github.py
+    - name: 安装SSH钥匙
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+    - name: 提交到Gitee
+      run: | 
+        cd /workdir/gitee-blog/
+        git config --global user.email "${{ env.GITEE_USER_EMAIL }}"
+        git config --global user.name "Github Action"
+        git add .
+        git commit -m "Github Action自动修改并同步Gidea博客 - Cool!"
+        git remote add gitee git@gitee.com:${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
+        git push -u gitee ${{ env.GITEE_BRANCH }} --force
+    - name: 为Github推送准备
+      run: |
+        cd /workdir/github-blog
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git add .
+        git commit -m "[bot]为图片和css增加Cdn "
+    - name: 提交到Github
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ env.GITHUB_BRANCH }}
+        repository: ${{ env.GITHUB_USERNAME }}/${{ env.GITHUB_REPO }}
+        directory: /workdir/github-blog
+    - name: 编译Gitee Page
+      uses: yanglbme/gitee-pages-action@main
+      with:
+        gitee-username: ${{ env.GITEE_USERNAME }}
+        gitee-password: ${{ secrets.GITEE_PASSWORD }}
+        gitee-repo: ${{ env.GITEE_REPO }}
+        branch: ${{ env.GITEE_BRANCH }}
