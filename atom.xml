@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-03-24T07:01:39.823Z</updated>
+    <updated>2021-03-24T07:06:45.585Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://marcuspierce.github.io/images/avatar.png</logo>
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
+    <entry>
+        <title type="html"><![CDATA[真实新闻 剧本预定]]></title>
+        <id>https://marcuspierce.github.io/post/zhen-shi-xin-wen-ju-ben-yu-ding/</id>
+        <link href="https://marcuspierce.github.io/post/zhen-shi-xin-wen-ju-ben-yu-ding/">
+        </link>
+        <updated>2021-03-24T07:05:43.000Z</updated>
+        <content type="html"><![CDATA[<p>1月4日，本市无业游民吴某绑架了其前雇主袁某，并向袁某家属索要赎金十五万元。袁某家属放弃报警，承诺当天凑齐赎金。</p>
+<p>随后，吴某为了安全收到赎金，进行了一系列迷之操作:</p>
+<p>吴某指示袁某家属，于夜间十一点三十分在星河街路口等候（此处距离市中心较远，夜间路上几乎没有其他车辆行人），等到某外卖平台的骑手路过时，开车将其撞倒。趁现场混乱之际，将赎金和外卖箱中的餐品调换，以此完成支付赎金的环节；</p>
+<p>为了避免引起外卖骑手的怀疑，吴某还让袁某家属提前点了一份外卖，并将标签上标有下单时间的部分撕毁，把剩余的部分标签绑在装有赎金的塑料袋上；吴某选定了外卖商家，星河街将是送餐的必经之路；</p>
+<p>吴某利用虚假身份信息，租下了一栋居民楼八层和九层的两个房间，吴某将送餐地址定在九层，自己则躲在八层。一旦袁某家属偷偷报警，警方便不能在送餐地址所在的九楼将嫌疑人吴某抓捕归案。</p>
+<p>当晚，嫌疑人吴某在约定时间到来之前点好外卖，之后也如同吴某所预想的一样，袁某家属成功在路口撞倒了骑手小李。</p>
+<p>尽管骑手小李不是事故责任方，但是由于担心对方反过来让自己赔钱，于是强忍疼痛，迅速骑车逃离现场，继续送餐。为了避免收到差评，小李在与吴某和商家的沟通中，刻意隐瞒了此事。嫌疑人吴某收到外卖后，发现塑料袋中并不是赎金，猜测骑手小李偶然间看到了赎金并私自藏匿。</p>
+<p>吴某当即对被绑的袁某进行殴打，用袁某掉下的一颗牙齿，威胁商家有食品卫生问题，要求骑手取回餐品重做，试图借此夺回赎金。</p>
+<p>骑手小李因为身体不适，拒绝取餐，沟通一时陷入僵局。</p>
+<p>这时，袁某家属通过短信和嫌疑人吴某取得联系，表明自己确实撞倒了骑手小李，但是因为小李逃得太快，袁某家属并没有完成调换赎金。</p>
+<p>吴某指示袁某家属在原地等候，转头又打下了袁某更多的牙齿，试图以“疑似与命案有关”，恐吓骑手迅速回来取餐，了结此事。</p>
+<p>但是吴某没有想到的是，小李经过权衡利弊，已经提前决定前去取餐。</p>
+<p>精神高度紧张的吴某，想不到小李没打过招呼直接去了九层的送餐地址，匆匆跑上楼时，发现自己忘关了九层的房门，骑手小李已经看到了鲜血淋漓的袁某。</p>
+<p>骑手小李还没从震惊中回过神，吴某迅速从背后袭击了小李，随后在小李的手机上，以对方的语气安抚外卖平台上的商家，声称此事已经结束。</p>
+<p>草草处理过现场，吴某立刻骑上小李的电动车，赶往星河街路口。</p>
+<p>一直等候在路口的袁某家属发现骑手重新出现，决定再次撞倒骑手，以便调换赎金解救袁某，不料这一次没控制好踩油门的力道，心急如焚的吴某被当场撞死……</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is Markdown]]></title>
         <id>https://marcuspierce.github.io/post/what-is-markdown/</id>
