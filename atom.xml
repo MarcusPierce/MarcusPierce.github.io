@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-01T07:57:25.860Z</updated>
+    <updated>2021-04-01T08:52:21.264Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -30,7 +30,9 @@
 <p>“According to research done at Harvard Chan School of Public Health, following the guidelines presented through the Healthy Eating Pyramid and Healthy Eating Plate can lead to a lower risk of heart disease and premature death.” (Akbaraly, 2011)</p>
 <p>We, as nutritionists with extensive biological training and specializing in cell function and metabolism, can provide healthy food plan for the students on campus at Wenzhou High School No. 22, let students benefit from a healthy diet.</p>
 <h3 id="the-relationship-between-macromolecules-and-overall-health-2">The relationship between macromolecules and overall health</h3>
-<p>Food provides the body with the nutrients it needs to survive. Many of these key nutrients are macromolecules. These polymers (macromolecules) are made up of different combinations of monomers (smaller organic molecules).</p>
+<p>Food provides the body with the nutrients it needs to survive. Many of these key nutrients are macromolecules.</p>
+<p>A <strong>monomer</strong> is the unit that can combine with other monomers to form polymers.</p>
+<p>A <strong>polymer</strong> is a large molecule that is composed of many monomers bonded together.</p>
 <h3 id="what-you-should-know-about-carbohydrates-2">What you should know about carbohydrates</h3>
 <figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/ZPshRp.jpg" alt="Carbohydrates" loading="lazy"></figure>
 <p>(<em>¿SABIAS QUE? ¿Qué son los Carbohidratos (CHO)?</em> 2020)</p>
@@ -38,23 +40,16 @@
 <li><strong>Introduction</strong></li>
 </ul>
 <p>Carbohydrate is a kind of abundant nutrients existing in many foods and beverages. Carbohydrate can provide glucose for the body, which is converted into energy to support body function and physical activity. (<em>Carbohydrates.</em> 2019) In: fruits, vegetables, nuts, cereals have more. (<em>Choose your carbs wisely.</em> 2020)</p>
-<p>Examples: <code>Rice</code>, <code>noodle</code>, <code>lotus root</code>, <code>potato</code>, <code>taro</code></p>
+<p>Examples: <code>rice</code>, <code>noodle</code>, <code>lotus root</code>, <code>potato</code>, <code>taro</code></p>
 <ul>
-<li><strong>Monosaccharides</strong></li>
+<li><strong>Structure</strong></li>
 </ul>
 <p>Monomers of carbohydrates are simple sugars and the basic building blocks of carbohydrates, they are also known as monosaccharides and are used by the cells of living things to store and produce energy. (Achiyan, 2020)</p>
-<ul>
-<li><strong>Disaccharide</strong></li>
-</ul>
-<p>Disaccharide is a molecule formed by two monosaccharides or monosaccharides. Sucrose, maltose and lactose are three common disaccharides. (<em>Disaccharide.</em> 2019)</p>
-<ul>
-<li><strong>Polysaccharides</strong></li>
-</ul>
 <p>Polysaccharides are large molecules composed of many smaller monosaccharides. Special enzymes combine these small monomers to form large sugar polymers or polysaccharides. (<em>Disaccharide.</em> 2019)</p>
 <ul>
 <li><strong>Functional group</strong></li>
 </ul>
-<p>There are two functional groups in carbohydrates: carbonyl group and alcohol group. Generally speaking, we add Aldo - or keto - prefixes to carbohydrates to name carbonyl and alcohol functional groups. (<em>Nomenclature of Carbohydrates (the Fundamentals).</em> 2020)</p>
+<p>There are two functional groups in carbohydrates: carbonyl group and alcohol group. Generally speaking, we add Aldo - or keto - prefixes to carbohydrates to name carbonyl and alcohol functional groups. (<em>Nomenclature of Carbohydrates.</em> 2020)</p>
 <ul>
 <li><strong>Chemical properties</strong></li>
 </ul>
@@ -66,32 +61,31 @@
 <p>Carbohydrates are also structural components of cells.</p>
 </li>
 <li>
-<p>Carbohydrates can combine with lipids and proteins</p>
+<p>Carbohydrates can combine with lipids and proteins.</p>
 </li>
 </ol>
 <h3 id="what-you-should-know-about-protein-2">What you should know about protein</h3>
 <figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/H9Wsrk.jpg" alt="Protein" loading="lazy"></figure>
 <p>(Szalay, 2015)</p>
 <ul>
-<li>
-<p><strong>Introduction</strong></p>
-</li>
-<li>
-<p><strong>Monosaccharides</strong></p>
-</li>
-<li>
-<p><strong>Disaccharide</strong></p>
-</li>
-<li>
-<p><strong>Polysaccharides</strong></p>
-</li>
-<li>
-<p><strong>Functional group</strong></p>
-</li>
-<li>
-<p><strong>Chemical properties</strong></p>
-</li>
+<li><strong>Introduction</strong></li>
 </ul>
+<p>Protein is a kind of macromolecule that is essential for muscle. It is commonly found in animal products, but it is also found in other sources such as nuts and beans. “Protein makes up about 15 percent of a person’s body weight.” (Szalay, 2015)</p>
+<ul>
+<li><strong>Structure</strong></li>
+</ul>
+<p>Proteins are made up of monomers called amino acids. They are linked together to form a polypeptide chain, which is folded into a three-dimensional structure to form a functional protein. (Embl-Ebi, <em>Biomacromolecular structures</em>)</p>
+<ul>
+<li><strong>Functional group</strong></li>
+</ul>
+<p>Proteins contain many functional groups. These functional groups include alcohols, thiols, thioethers, carboxylic acids, carboxamides, and a variety of basic groups.</p>
+<ul>
+<li><strong>Chemical properties</strong></li>
+</ul>
+<ol>
+<li>Proteins are hydrolyzed by a variety of hydrolytic agents.</li>
+<li>Proteins usually are almost neutral molecules, neither acidic nor basic properties.</li>
+</ol>
 <h3 id="how-to-implement-it-in-the-school-cafeteria-2">How to implement it in the school cafeteria</h3>
 <p>We encourage a healthy and balanced diet based on optimal proportions in school meals.</p>
 <p>50% of a meal should be vegetables and fruits,</p>
@@ -106,7 +100,8 @@
 <p>Achiyan, Y. (2020, March 3). <em>What Are Monomers Of Carbohydrates?</em> Science Trends. https://sciencetrends.com/what-are-monomers-of-carbohydrates/.</p>
 <p><em>Disaccharide</em>. Biology Dictionary. (2019, October 5). https://biologydictionary.net/disaccharide/.</p>
 <p><em>Nomenclature of Carbohydrates (the Fundamentals)</em>. Organic Chemistry Tutor. (2020, November 29). https://www.organicchemistrytutor.com/topic/nomenclature-of-carbohydrates-the-fundamentals/#:~:text=Sugars%2C%20or%20carbohydrates%2C%20have%20two%20major%20functional%20groups%3A,functional%20groups%2C%20so%20we%20never%20focus%20on%20those.</p>
-<p>Szalay, J. (2015). <em>What Is Protein?</em> Live Science. https://www.livescience.com/53044-protein.html.</p>
+<p>Szalay, J. (2015, December 10). <em>What Is Protein?</em> LiveScience. https://www.livescience.com/53044-protein.html.</p>
+<p>Embl-Ebi. (n.d.). Biomacromolecular structures. https://www.ebi.ac.uk/training/online/courses/biomacromolecular-structures/biomacromolecular-structures/.</p>
 </blockquote>
 ]]></content>
     </entry>
