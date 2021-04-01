@@ -1,0 +1,368 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Nutritionist for a Day | 毛胚房</title>
+
+<link rel="shortcut icon" href="https://marcuspierce.github.io/favicon.ico?v=1617248495904">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://marcuspierce.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            毛胚房
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1617248495904"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Nutritionist for a Day
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-04-01 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="catalogue"><strong>Catalogue</strong></h2>
+<blockquote>
+<h4 id="why-you-should-use-our-healthy-food-plan">Why you should use our healthy food plan</h4>
+</blockquote>
+<blockquote>
+<h4 id="the-relationship-between-macromolecules-and-overall-health">The relationship between macromolecules and overall health</h4>
+</blockquote>
+<blockquote>
+<h4 id="what-you-should-know-about-carbohydrates">What you should know about carbohydrates</h4>
+</blockquote>
+<blockquote>
+<h4 id="what-you-should-know-about-protein">What you should know about protein</h4>
+</blockquote>
+<blockquote>
+<h4 id="how-to-implement-it-in-the-school-cafeteria">How to implement it in the school cafeteria</h4>
+</blockquote>
+<blockquote>
+<h4 id="reference">Reference</h4>
+</blockquote>
+<h2 id="text"><strong>Text</strong></h2>
+<h3 id="why-you-should-use-our-healthy-food-plan-2">Why you should use our healthy food plan</h3>
+<p>“According to research done at Harvard Chan School of Public Health, following the guidelines presented through the Healthy Eating Pyramid and Healthy Eating Plate can lead to a lower risk of heart disease and premature death.” (Akbaraly, 2011)</p>
+<p>We, as nutritionists with extensive biological training and specializing in cell function and metabolism, can provide healthy food plan for the students on campus at Wenzhou High School No. 22, let students benefit from a healthy diet.</p>
+<h3 id="the-relationship-between-macromolecules-and-overall-health-2">The relationship between macromolecules and overall health</h3>
+<p>Food provides the body with the nutrients it needs to survive. Many of these key nutrients are macromolecules. These polymers (macromolecules) are made up of different combinations of monomers (smaller organic molecules).</p>
+<h3 id="what-you-should-know-about-carbohydrates-2">What you should know about carbohydrates</h3>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/ZPshRp.jpg" alt="Carbohydrates" loading="lazy"></figure>
+<p>(<em>¿SABIAS QUE? ¿Qué son los Carbohidratos (CHO)?</em> 2020)</p>
+<ul>
+<li>Introduction</li>
+</ul>
+<p>Carbohydrate is a kind of abundant nutrients existing in many foods and beverages. Carbohydrate can provide glucose for the body, which is converted into energy to support body function and physical activity. (<em>Carbohydrates.</em> 2019) In: fruits, vegetables, nuts, cereals have more. (<em>Choose your carbs wisely.</em> 2020)</p>
+<ul>
+<li>Monosaccharides</li>
+</ul>
+<p>Monomers of carbohydrates are simple sugars and the basic building blocks of carbohydrates, they are also known as monosaccharides and are used by the cells of living things to store and produce energy. (Achiyan, 2020)</p>
+<ul>
+<li>Disaccharide</li>
+</ul>
+<p>Disaccharide is a molecule formed by two monosaccharides or monosaccharides. Sucrose, maltose and lactose are three common disaccharides. (<em>Disaccharide.</em> 2019)</p>
+<ul>
+<li>Polysaccharides</li>
+</ul>
+<p>Polysaccharides are large molecules composed of many smaller monosaccharides. Special enzymes combine these small monomers to form large sugar polymers or polysaccharides. (<em>Disaccharide.</em> 2019)</p>
+<ul>
+<li>
+<p>Functional group</p>
+</li>
+<li>
+<p>Chemical properties</p>
+</li>
+</ul>
+<h3 id="what-you-should-know-about-protein-2">What you should know about protein</h3>
+<h3 id="how-to-implement-it-in-the-school-cafeteria-2">How to implement it in the school cafeteria</h3>
+<h3 id="reference-2">Reference</h3>
+<p>Akbaraly TN, Ferrie JE, Berr C, Brunner EJ, Head J, Marmot MG, Singh-Manoux A, Ritchie K, Shipley MJ, Kivimaki M. Alternative Healthy Eating Index and mortality over 18 y of follow-up: results from the Whitehall II cohort. <a href="https://academic.oup.com/ajcn/article-abstract/94/1/247/4597867"><em>The American journal of clinical nutrition</em></a>. 2011 May 25;94(1):247-53.</p>
+<p><em>¿Sabias Que? ¿Qué son los Carbohidratos (Cho)?</em> (2020). https://www.naturalclinic.cl/blog/carbohidratos.</p>
+<p>Mayo Foundation for Medical Education and Research. (2020, April 17). <em>Choose your carbs wisely</em>. Mayo Clinic. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/carbohydrates/art-20045705.</p>
+<p><em>Carbohydrates</em>. The Nutrition Source. (2019, May 22). https://www.hsph.harvard.edu/nutritionsource/carbohydrates/.</p>
+<p>Achiyan, Y. (2020, March 3). <em>What Are Monomers Of Carbohydrates?</em> Science Trends. https://sciencetrends.com/what-are-monomers-of-carbohydrates/.</p>
+<p><em>Disaccharide</em>. Biology Dictionary. (2019, October 5). https://biologydictionary.net/disaccharide/.</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://marcuspierce.github.io/post/zhen-shi-xin-wen-ju-ben-yu-ding/" class="post-title gt-a-link">
+                    一篇真实新闻
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/nutritionist-for-a-day/" class="leancloud_visitors" data-flag-title="Nutritionist for a Day">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'peTAdPndMe7GFWAD7UbpH6AU-9Nh9j0Va',
+		appKey: 'AfCzYBdGFlOovpEpLcAebfEg',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: '开始指点江山',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">MarcusPierce 个人博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/MarcusPierce" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.twitter.com/TheMarcusPierce" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://marcuspierce.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
