@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-06T06:34:18.164Z</updated>
+    <updated>2021-04-06T06:37:13.670Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -204,7 +204,7 @@ PBKDF2 密码延伸<br>
 <h4 id="标题-h1-h6">标题 h1-h6</h4>
 <p>快捷键：<code>cmd + 1-6</code></p>
 <h4 id="图像">图像</h4>
-<p><img src="assets/128.png" alt="" loading="lazy"><br>
+<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/p1tpcg.png" alt="icon" loading="lazy"><br>
 快捷键：<code>cmd + shift + i</code></p>
 <h4 id="粗体-斜体-删除线">粗体、斜体、删除线</h4>
 <p><strong>粗体</strong><br>
@@ -265,8 +265,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5347838"><label class="task-list-item-label" for="task-item-5347838"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6833904"><label class="task-list-item-label" for="task-item-6833904"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-334947"><label class="task-list-item-label" for="task-item-334947"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4552363"><label class="task-list-item-label" for="task-item-4552363"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
