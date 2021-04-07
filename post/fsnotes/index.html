@@ -1,0 +1,582 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Apple生态下的开源笔记 - FSNotes | 毛胚房</title>
+
+<link rel="shortcut icon" href="https://marcuspierce.github.io/favicon.ico?v=1617763888793">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://marcuspierce.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            毛胚房
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1617763888793"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Apple生态下的开源笔记 - FSNotes
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-04-06 ·
+                    </time>
+                    
+                        <a href="https://marcuspierce.github.io/tag/fen-xiang/" class="post-tags">
+                            # 分享
+                        </a>
+                    
+                        <a href="https://marcuspierce.github.io/tag/jiao-cheng/" class="post-tags">
+                            # 教程
+                        </a>
+                    
+                        <a href="https://marcuspierce.github.io/tag/can-kao/" class="post-tags">
+                            # 参考
+                        </a>
+                    
+                        <a href="https://marcuspierce.github.io/tag/b5JOoGQTr/" class="post-tags">
+                            # 原创
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="介绍">介绍</h2>
+<p>FSNotes 是一款支持 macOS 和 iOS 的开源笔记软件。<br>
+官方列出了以下主要特点</p>
+<blockquote>
+<p>Markdown 优先，支持纯文本和 RTF 文件<br>
+轻量流畅，10k+ 文件仍然运行良好<br>
+iCloud Drive 或 Dropbox 同步（任何同步盘）<br>
+多文件夹存储<br>
+操作以键盘为中心，快捷键启发自 nvALT<br>
+自适应双窗格视图，可选垂直或水平排布<br>
+外部编辑器支持，无缝实时同步<br>
+支持超过 170 种编程语言的代码高亮<br>
+支持行内图像<br>
+支持标签<br>
+支持笔记跳转 [[双方括号]]<br>
+支持固定笔记<br>
+支持笔记快捷复制到剪贴板<br>
+黑暗模式<br>
+AES-256 加密<br>
+支持 Mermaid 与 MathJax<br>
+可选的 Git 版本控制和备份</p>
+</blockquote>
+<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/macOS-and-iOS.png" alt="macOS-and-iOS" loading="lazy"><br>
+软件大小仅 13.5 MB，但功能齐全。<br>
+macOS 版完全免费，但提供 Mac App Store 付费下载，用于支持作者开发<br>
+iOS 版付费买断，国区售价¥18。可以选择使用云服务同步到 iOS 后使用其他支持Markdown 的软件进行编辑查看。</p>
+<h2 id="安装">安装</h2>
+<p>macOS端可以使用 Homebrew 进行安装</p>
+<pre><code>brew install fsnotes
+</code></pre>
+<p>或在 GitHub Releases 界面下载<br>
+<a href="https://github.com/glushchenko/fsnotes/releases">GitHub Releases</a></p>
+<h2 id="使用">使用</h2>
+<p>完成安装后，软件内置非常详细的英文使用教学。<br>
+<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Built-in%20tutorial.png" alt="Built-in tutorial" loading="lazy"><br>
+笔者对其进行了翻译，并且在 GitHub 提交了希望增加多语言支持的 Issues<br>
+<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/GitHub%20Issue.png" alt="GitHub-Issue" loading="lazy"></p>
+<p>接下来是本人翻译的使用教学</p>
+<h3 id="1-引言">1. 引言</h3>
+<p>嗨，我的名字是 Oleksandr，我是这个程序的作者。几年前，我发现我最喜欢的笔记应用 nvALT 不再启动了。</p>
+<p>现有的 macOS 和 iOS 替代方案都不适合我，因为我已经当了很多年开发者，所以我尝试编写自己的解决方案。2017年夏天，我在 GitHub 上公布了 FSNotes 的源代码。这是一个糟糕的应用程序。很烂，功能也差。但我没有放弃，贡献者们也没有。</p>
+<p>现在，FSNotes 已被翻译成 12 种语言，使用者遍布全球。功能数量超过一百个，其中还有几十个是独有的。</p>
+<p>如果您喜欢此应用程序，请支持开发。在App Store购买 <a href="https://apps.apple.com/app/fsnotes/id1277179284">Mac App Store</a> 以及在 <a href="https://apps.apple.com/app/fsnotes-manager/id1346501102">AppStore</a> 获得移动版本的FSNotes。</p>
+<p>谨致问候，<br>
+FSNotes 开发者，Oleksandr Hlushchenko<br>
+邮件: support@fsnot.es</p>
+<h3 id="2-链接">2. 链接</h3>
+<p>[[1. 引言]]<br>
+[[2. 链接]]<br>
+[[3. 快捷键]]<br>
+[[4. 侧边栏]]<br>
+[[5. 标签和子标签]]<br>
+[[6. Mermaid 与 MathJax]]<br>
+[[7. 基于 Git 的版本控制]]<br>
+[[8. 容器]]<br>
+[[9. GitHub Flavored Markdown]]<br>
+注：以上内容只能在 FSNotes 软件中点击跳转</p>
+<p>官方网站：https://fsnot.es<br>
+Issues：https://github.com/glushchenko/fsnotes/issues<br>
+Wiki：https://github.com/glushchenko/fsnotes/wiki<br>
+公告：https://twitter.com/fsnotesapp</p>
+<h3 id="3-快捷键">3. 快捷键</h3>
+<p>FSNotes 支持纯键盘操作，是一款快捷键友好的应用。</p>
+<p>您必须学会的最重要的组合键是：</p>
+<p><code>cmd - backtick</code> - 用 CMD+反单引号 (TAB上面那个) 禁用/启用预览模式。</p>
+<p>替代方案: 您可以也可以通过菜单栏中的<strong>视图-切换预览</strong>来完成以上操作 <code>View - Toggle Preview</code></p>
+<h4 id="全局">全局</h4>
+<ul>
+<li><code>cmd + option + shift + L</code> - 打开主窗口并聚焦搜索栏</li>
+<li><code>cmd + option + shift + n</code> - 保存剪贴板</li>
+<li><code>enter</code> - 向右移动文件夹层级（向下）; 侧边栏 &gt; 笔记列表 &gt; 笔记</li>
+<li><code>cmd + enter</code> - 向左移动文件夹层级（向上）; 笔记 &gt; 笔记列表 &gt; 侧边栏</li>
+</ul>
+<h4 id="搜索栏">搜索栏</h4>
+<ul>
+<li><code>down arrow</code> - 用下箭头将焦点移到笔记列表上</li>
+<li><code>enter</code> - 回车新建笔记</li>
+</ul>
+<h4 id="主窗口">主窗口</h4>
+<ul>
+<li><code>esc</code> - 将光标移到搜索栏并清屏（不删除编辑内容）</li>
+<li><code>cmd + L</code> - 聚焦搜索栏</li>
+<li><code>tab</code> - TAB转到下一区域</li>
+<li><code>cmd + backtick</code> - CMD+反单引号 预览模式 (仅限 markdown)</li>
+<li><code>up, down arrows</code> - 下箭头选择笔记</li>
+<li><code>cmd + j</code> - 下一篇笔记</li>
+<li><code>cmd + k</code> - 上一篇笔记</li>
+</ul>
+<h4 id="笔记列表">笔记列表</h4>
+<ul>
+<li><code>cmd + delete</code> - 删除笔记</li>
+<li><code>cmd + r</code> - 重命名笔记</li>
+<li><code>cmd + 8</code> - 固定笔记</li>
+<li><code>cmd + 7</code> - 去除加密（解密之前加密的笔记）</li>
+<li><code>cmd + n</code> - 新建笔记</li>
+<li><code>cmd + shift + n</code> - 新建 RTF</li>
+<li><code>ctrl + cmd + e</code> – 在外部编辑器中打开所选内容</li>
+<li><code>ctrl + cmd + o</code> – 在 Finder 中显示所选内容</li>
+<li><code>shift + cmd + m</code> – 在存储中移动所选笔记</li>
+<li><code>shift + cmd + b</code> – 隐藏侧边栏</li>
+<li><code>cmd + s</code> – 将修订版本保存在 Git 中</li>
+<li><code>cmd + d</code> – 创建笔记副本</li>
+<li><code>cmd + alt + l</code> - 加密/解密笔记（AES 256）</li>
+</ul>
+<h4 id="编辑">编辑</h4>
+<ul>
+<li><code>fn + f5</code> - 自动完成笔记名称</li>
+<li><code>cmd + `</code>，或点击 <code>View - Toggle preview</code> - 用于启用或禁用markdown预览</li>
+</ul>
+<h3 id="4-侧边栏">4. 侧边栏</h3>
+<p>要切换项目和标签侧边栏按钮 <code>control + cmd + shift + b</code></p>
+<p>您可以选择和过滤无限制的项目和标签。</p>
+<h4 id="每个子文件夹都是一个项目">每个子文件夹都是一个项目</h4>
+<p>在您的存储空间中创建无限制的文件夹。右键单击根文目录(<code>Documents</code>) 并单击“新建文件夹” <code>⌥ option + ⇧ shift + n</code>.</p>
+<p>每个项目都有自己的设置，右键单击项目 - &quot;显示视图选项&quot; <code>cmd + shift + ,</code>.</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/aEpF5U.jpg" alt="View" loading="lazy"></figure>
+<p>您可以配置排序、方向、可见性设置。</p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/8SI0z8.jpg" alt="Preference" loading="lazy"></figure>
+<h3 id="5-标签和子标签">5. 标签和子标签</h3>
+<p>FSNotes version 4 带来了一个令人惊叹的行内标签系统。只需在文字前面加上井号 (#)即可为笔记添加标签。像这样： #hello 。或者，像这样为它们添加子标签： #hello/world 。您能给您的笔记贴多厚的标签？像 #unlimited/sub/tags 。标签会自动完成。输入井号 (#)和标签的第一个字符，然后：</p>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/980h2m.jpg" alt="Hello" loading="lazy"></figure>
+<p>很好！还有别的。每个项目都有自己的标签命名空间。例如，选择“存档”时，仅显示“存档”的笔记中的标签。</p>
+<p>在侧边栏选择的同时按住<code>cmd</code>可以多选多个项目和标签。<br>
+<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Dw6q1e.jpg" alt="Tags" loading="lazy"></p>
+<h3 id="6-mermaid-与-mathjax">6. Mermaid 与 MathJax</h3>
+<h4 id="mermaid-流程图示例">Mermaid 流程图示例</h4>
+<p>支持文档：https://mermaidjs.github.io</p>
+<pre><code class="language-mermaid">sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts &lt;br/&gt;prevail!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</code></pre>
+<h4 id="mathjax-数学公式示例">MathJax 数学公式示例</h4>
+<p>支持文档：https://www.mathjax.org</p>
+<blockquote>
+<p>请启用菜单栏中的：视图 &gt; Preview MathJax</p>
+</blockquote>
+<p>当 ((<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mi mathvariant="normal">≠</mi><mn>0</mn></mrow><annotation encoding="application/x-tex">a \ne 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel"></span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>))，有两种解法可用于 $$ax^2 + bx + c = 0$$ 它们是</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.276389em;vertical-align:-0.686em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.590389em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathdefault">a</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord mathdefault">b</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">±</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.913389em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">4</span><span class="mord mathdefault">a</span><span class="mord mathdefault">c</span></span></span><span style="top:-2.873389em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12661100000000003em;"><span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mord">.</span></span></span></span></span></p>
+<h3 id="7-基于-git-的版本控制">7. 基于 Git 的版本控制</h3>
+<p>使用 <code>cmd + s</code> 快捷键来保存笔记：</p>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/N6GLic.jpg" alt="Save" loading="lazy"></figure>
+<p>并在菜单栏恢复到历史版本：</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/wuxpIT.jpg" alt="History" loading="lazy"></figure>
+<h4 id="自动备份所有笔记">自动备份所有笔记</h4>
+<p>在偏好设置中配置：</p>
+<figure data-type="image" tabindex="6"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/b0YI5D.jpg" alt="Backup" loading="lazy"></figure>
+<p>例如，每小时进行一次备份。</p>
+<h4 id="您还可以备份备份">您还可以备份备份 🤪</h4>
+<p>毕竟再安全也不为过。</p>
+<figure data-type="image" tabindex="7"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/I7YzPX.jpg" alt="BackupBackup" loading="lazy"></figure>
+<h3 id="8-容器">8. 容器</h3>
+<p>什么是容器？“容器”是存放您的文件的文件夹。容器保存一个笔记中使用的文本和其他资源。当然，您可以选择不使用容器。打开偏好设置-&gt; 基本-&gt; 容器并选择“无”。笔记将以纯文本、 Markdown 或 RTF 格式存储。</p>
+<p>我建议对敏感数据使用 TextBundle 容器和加密 TextBundle 容器。请继续阅读</p>
+<h4 id="textbundle-容器">TextBundle 容器</h4>
+<p>文件扩展名 – <code>.textbundle</code></p>
+<p>TextBundle – 这种格式旨在在应用程序之间交换纯文本文件(如 Markdown 或 RTF)时提供更无缝的用户体验。 http://textbundle.org</p>
+<p>例如，一个 Markdown 文件可能包含对外部图像的引用。当从 Markdown 编辑器发送这样的文件到预览器时，用户必须明确指定每一个图像文件的位置。这就是 TextBundle 派上用场的地方。通过将 Markdown 文本和所有引用的图像打包在一个文件中，Text Bundle 提供更方便的体验。</p>
+<h4 id="加密-textbundle-容器">加密 TextBundle 容器</h4>
+<p>文件扩展名 – <code>.etp</code>.</p>
+<p>加密文本包用于笔记加密。它是加密的文本包（压缩包）并用 RNCryptor 加密。RNCryptor 是一种跨平台的数据格式，有很多实现方案。在软件后台，我们有：</p>
+<p>AES-256 加密<br>
+CBC 模式<br>
+PBKDF2 密码延伸<br>
+密码加盐<br>
+随机 IV<br>
+加密后哈希 HMAC<br>
+开放和跨平台</p>
+<p>您可以使用 Python 或 Ruby、JS 等解密任何 FSNotes 笔记(完整列表可在此处找到)<br>
+解压缩并用普通的文本格式快活吧。</p>
+<h3 id="9-github-flavored-markdown">9. GitHub Flavored Markdown</h3>
+<h4 id="标题-h1-h6">标题 h1-h6</h4>
+<p>快捷键：<code>cmd + 1-6</code></p>
+<h4 id="图像">图像</h4>
+<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/p1tpcg.png" alt="icon" loading="lazy"><br>
+快捷键：<code>cmd + shift + i</code></p>
+<h4 id="粗体-斜体-删除线">粗体、斜体、删除线</h4>
+<p><strong>粗体</strong><br>
+快捷键：<code>cmd + b</code></p>
+<p><em>斜体</em><br>
+快捷键：<code>cmd + i</code></p>
+<p><s>删除线</s><br>
+快捷键：<code>cmd + y</code></p>
+<h4 id="引用">引用</h4>
+<blockquote>
+<p>您可以引用<br>
+不止一行</p>
+</blockquote>
+<p>快捷键：<code>cmd + shift + u</code></p>
+<h4 id="代码块">代码块</h4>
+<p>Swift 示例：</p>
+<pre><code class="language-swift">public static func getHighlighter() -&gt; Highlightr? {
+    if let instance = self.hl {
+        return instance
+    }
+    
+    guard let highlightr = Highlightr() else {
+        return nil
+    }
+    
+    highlightr.setTheme(to: &quot;vs&quot;)
+    self.hl = highlightr
+    
+    return self.hl
+}
+</code></pre>
+<p>SQL 示例：</p>
+<pre><code class="language-sql">CREATE TABLE &quot;topic&quot; (
+    &quot;id&quot; serial NOT NULL PRIMARY KEY,
+    &quot;forum_id&quot; integer NOT NULL,
+    &quot;subject&quot; varchar(255) NOT NULL
+);
+ALTER TABLE &quot;topic&quot;
+ADD CONSTRAINT forum_id FOREIGN KEY (&quot;forum_id&quot;)
+REFERENCES &quot;forum&quot; (&quot;id&quot;);
+
+-- Initials
+insert into &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)
+values (2, 'D''artagnian');
+</code></pre>
+<p>快捷键：<code>cmd + control + c</code></p>
+<h4 id="code-span">Code span</h4>
+<p><code>One line code span</code></p>
+<p>快捷键：<code>cmd + shift + c</code></p>
+<h4 id="列表-编号列表和待办事项">列表、编号列表和待办事项</h4>
+<ul>
+<li>列表</li>
+</ul>
+<p>快捷键：<code>control + L</code></p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<p>快捷键：<code>control + shift + L</code></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8213829"><label class="task-list-item-label" for="task-item-8213829"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3817964"><label class="task-list-item-label" for="task-item-3817964"> 买水</label></li>
+</ul>
+<p>快捷键：<code>cmd + t</code></p>
+<h4 id="wiki-链接">Wiki 链接</h4>
+<p>添加 Wiki 链接 [[WikiLinks with emoji 😎]]</p>
+<p>快捷键：<code>cmd + 9</code></p>
+<h2 id="小结">小结</h2>
+<p>以上是 FSNotes 的使用教程，这篇教程将 FSNotes 的常用使用场景基本表现了出来，作为一款以 Markdown 为主的笔记软件，其优缺点都十分明显。<br>
+对于已经有 Markdown 使用经验的朋友，应该已经有了一套自己管理<code>.md</code>文件的工作流。但对于新手，通过一个更加类似传统笔记软件（Evernote，OneNote）的笔记软件来熟悉 Markdown 的使用可以是个非常友好的入门选择。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://marcuspierce.github.io/post/nutritionist-for-a-day/" class="post-title gt-a-link">
+                    Nutritionist for a Day
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/fsnotes/" class="leancloud_visitors" data-flag-title="Apple生态下的开源笔记 - FSNotes">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'peTAdPndMe7GFWAD7UbpH6AU-9Nh9j0Va',
+		appKey: 'AfCzYBdGFlOovpEpLcAebfEg',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: '开始指点江山',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">MarcusPierce 个人博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/MarcusPierce" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.twitter.com/TheMarcusPierce" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://marcuspierce.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
