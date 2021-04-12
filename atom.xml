@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-07T02:57:43.779Z</updated>
+    <updated>2021-04-12T07:18:01.698Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -10,6 +10,69 @@
     <logo>https://marcuspierce.github.io/images/avatar.png</logo>
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
+    <entry>
+        <title type="html"><![CDATA[我如何使用 Teambition 进行任务管理]]></title>
+        <id>https://marcuspierce.github.io/post/wo-ru-he-shi-yong-teambition-jin-xing-ren-wu-guan-li/</id>
+        <link href="https://marcuspierce.github.io/post/wo-ru-he-shi-yong-teambition-jin-xing-ren-wu-guan-li/">
+        </link>
+        <updated>2021-04-12T07:16:02.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="导语">导语</h2>
+<p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
+<p>其本质上是一款类 <strong>Trello</strong> 的任务管理看板应用，经过多年的迭代，从一个单纯的看板发展到如今的办公套件，发展路线和<strong>钉钉</strong>相似。事实上，这两款应用的确可以在日历等功能联动。除此之外，<strong>Teambition 网盘</strong>在与<strong>阿里网盘</strong>的内部竞争中宣告关闭，此后 <strong>Teambition</strong> 内部网盘功能也会直接接入阿里网盘。</p>
+<p>作为<strong>钉钉</strong>和<strong>阿里网盘</strong>两款软件的重度用户，在比较了 <strong>Trello</strong> 和 <strong>Teambition</strong> 后还是选择了 <strong>Teambition</strong>，原因不外乎国内服务本地化更好以及访问更稳定。我自己能轻松访问国外服务不代表我的团队成员都拥有这个能力，而且能用<strong>钉钉</strong>账号登陆也是加分项。</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Trello.png" alt="Trello" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition.png" alt="Teambition" loading="lazy"></figure>
+<h2 id="看板">看板</h2>
+<p>新工具必然会伴随着学习成本，要熟悉 <strong>Teambition</strong> 首先就要熟悉其看板机制。</p>
+<p>如果你用过待办事项 TO-DO 类的工具，熟悉看板的使用原理应该不成问题。</p>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Microsoft-To-Do.png" alt="Microsoft-To-Do" loading="lazy"></figure>
+<p>想象多条 To-do list 横向排开，每一列都有着其对应的职能，而任务可以在不同的列之间随意拖动。</p>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/List-example.png" alt="List-example" loading="lazy"></figure>
+<p>每个任务存在未完成与已完成的状态，可以被指派某个特定的执行人，可以添加截止时间、文档、备注等等。</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Task-detail.png" alt="Task-detail" loading="lazy"></figure>
+<h2 id="开始使用">开始使用</h2>
+<p>创建你的第一个看板从建立一个「项目空间」开始。</p>
+<p><strong>Teambition</strong> 提供了多种模版可供参考，以「团队日常」模版为例</p>
+<figure data-type="image" tabindex="6"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Team-routine.png" alt="Team-routine" loading="lazy"></figure>
+<p>项目根据团队成员的名字被区分成了「<strong>🙍 Alice</strong>」「<strong>🙎‍♂️ Ted</strong>」「」「<strong>🏄‍♂️ Jack</strong>」，每个人负责的任务被区分开来。</p>
+<p>如果任务是以流水线形式完成，可以通过拖拽将任务移交给另一个负责人。</p>
+<p><strong>Teambition</strong> 允许邀请他人加入项目进行合作，每个人的权限可以被单独设定。</p>
+<hr>
+<p>现在你已经对看板系统建立了初步的了解，接下来我将向你展示我是如何使用 <strong>Teambition</strong> 的看板系统构建自己的任务清单的。</p>
+<p>我个人倾向于使用多个不同的项目空间来管理我的不同需求。</p>
+<p>我常用的四个「项目空间」分别是：</p>
+<p>「个人安排」「内容创作」「影视作品」「游戏世界」</p>
+<h3 id="个人安排">「个人安排」</h3>
+<p>我将需要完成的任务按照紧急程度划分为四个区域：</p>
+<p>【<strong>Deadline</strong>】【<strong>Within a week</strong>】【<strong>Within a month</strong>】【<strong>Anytime</strong>】</p>
+<p>如果你在上文任务详情部分观察足够仔细，你可能记得每个任务的详细设置中就可以设置任务优先级，但是我并不准备在这里进行设置，具体原因会在下文中解释。</p>
+<p>根据每个任务紧急状态的变化，任务可以从最右边的最不紧急一路拖拽至最左边的最紧急。</p>
+<figure data-type="image" tabindex="7"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Personal-arrangement.png" alt="Personal-arrangement" loading="lazy"></figure>
+<p>只要你关注过任务管理系统，你一定知道 <strong>GTD - Getting Things Done</strong> 时间管理系统</p>
+<figure data-type="image" tabindex="8"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/kwDfWE.png" alt="kwDfWE" loading="lazy"></figure>
+<p><strong>Teambition</strong> 非常适合用作 GTD 工具，但是我个人处理日常工作其实不需要一套如此详细的管理系统。</p>
+<p>对我来说，根据项目 Deadline 划分的紧急程度优先级足够浅显易懂也更容易执行，将其以列表形式分组也避免了切换优先级时需要进入重新任务设置，拖动的操作更加直观也更符合直觉。</p>
+<p>此外，因为打勾标记完成的任务会变灰沉底而不是直接删除，你还可以追踪哪些任务可以被提前完成，多少任务到了截止日才被完成，以此来改进自己的时间管理安排。</p>
+<h3 id="内容创作">「内容创作」</h3>
+<figure data-type="image" tabindex="9"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Content-creation.png" alt="Content-creation" loading="lazy"></figure>
+<p>本项目的分类来自 <strong>Teambition</strong> 提供的模版。</p>
+<p>你可以发现，「内容创作」的任务完成逻辑相比起「个人安排」有所不同。</p>
+<p>任务被完成后不仅会被打勾标记完成，还会被移到**【创作完成】**分组。</p>
+<p>对于这套根据任务状态而不是紧急程度的分组方式，所有被完成的任务会集中在同一分组下，方便管理与积累成就感，我也可以追踪每个任务的进度。</p>
+<h3 id="游戏世界">「游戏世界」</h3>
+<figure data-type="image" tabindex="10"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Game-world.png" alt="Game-world" loading="lazy"></figure>
+<h3 id="影视作品">「影视作品」</h3>
+<p>本项目的分类逻辑与「游戏世界」基本相同，但是在视图上有着很大的区别。</p>
+<figure data-type="image" tabindex="11"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Video-list.png" alt="Video-list" loading="lazy"></figure>
+<p>因为影单的分类通常较为固定，块之间不需要频繁的拖动，所以我使用了竖向视图。<br>
+这样的排序方式更加传统，添加内容也更方便。由于我之前的片单分散在各大视频网站以及豆瓣，所以这个项目仍在施工中。</p>
+<h2 id="后记">后记</h2>
+<p><strong>Teambition</strong> 于 2018 年 4 月被阿里巴巴收购。</p>
+<p>创始人@齐俊元 毕业于上海交通大学信息管理与信息系统专业，本人也已入驻少数派。</p>
+<figure data-type="image" tabindex="12"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Qi-Junyuan.png" alt="Qi-Junyuan" loading="lazy"></figure>
+<p>感谢你看到这里，祝你拥有美好的一天。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple生态下的开源笔记 - FSNotes]]></title>
         <id>https://marcuspierce.github.io/post/fsnotes/</id>
@@ -265,8 +328,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4133953"><label class="task-list-item-label" for="task-item-4133953"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3246087"><label class="task-list-item-label" for="task-item-3246087"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8811160"><label class="task-list-item-label" for="task-item-8811160"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3476143"><label class="task-list-item-label" for="task-item-3476143"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
