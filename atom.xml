@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-13T06:38:54.199Z</updated>
+    <updated>2021-04-13T06:46:08.644Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://marcuspierce.github.io/images/avatar.png</logo>
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
+    <entry>
+        <title type="html"><![CDATA[阿里云盘桌面端测试版抢先体验]]></title>
+        <id>https://marcuspierce.github.io/post/alidrive-beta/</id>
+        <link href="https://marcuspierce.github.io/post/alidrive-beta/">
+        </link>
+        <updated>2021-04-13T06:44:37.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>阿里云盘</strong>是阿里巴巴继酷盘后第二次尝试加入网盘大战的产物。</p>
+<p>这次带上了阿里的前缀，象征其倾注资源的决心与内部的高地位。</p>
+<h3 id="相关阅读">相关阅读</h3>
+<p><a href="https://sspai.com/post/65666">刚刚上线的阿里云盘很贴心，但它还缺一件重要的东西</a></p>
+<p><a href="https://sspai.com/post/64115">阿里云盘和 Teambition 网盘</a></p>
+<h2 id="前情提要">前情提要</h2>
+<p>目前公测期间的新注册用户会拥有500G空间，而内测用户则是 1T，如果内测期间还参加了 <strong>Teambition 网盘</strong>的测试，目前应该已经收到了网盘合并后的 3T空间</p>
+<p>客户端侧栏<strong>福利社</strong>入口内可以兑换福利码来获取有效期一年的扩容</p>
+<p>截止 4.13 日可用的福利码</p>
+<blockquote>
+<p>春暖花开<br>
+鸟语花香<br>
+面朝大海<br>
+春意盎然</p>
+</blockquote>
+<h2 id="多平台支持">多平台支持</h2>
+<p>阿里云盘已经推出 <a href="https://www.aliyundrive.com/download">Android 与 iOS 客户端</a>以及<a href="https://www.aliyundrive.com/sign/in">网页版</a></p>
+<p>官网显示其他版本仍在开发中</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Alidrive-client.png" alt="Alidrive-client" loading="lazy"></figure>
+<h2 id="测试版桌面端">测试版桌面端</h2>
+<p>本次我拿到的偷跑版提供了 Windows/macOS 双版本使用了阿里的签名，证明其自阿里云盘官方，并不是第三方客户端。</p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Alidrive-macOS%20-install.png" alt="Alidrive-macOS-install" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Alidrive-macOS%20-login.png" alt="Alidrive-macOS-login" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Alidrive-macOS%20-ui.png" alt="Alidrive-macOS-ui" loading="lazy"></figure>
+<p>测试版客户端提供的功能与网页端相同，推测是使用 <strong>Electron</strong> 制作的客户端。</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Alidrive-macOS%20-%20setting.png" alt="Alidrive-macOS-setting" loading="lazy"></figure>
+<p>目前支持了自适应黑暗模式，不支持文件夹同步与相册同步功能。</p>
+<h2 id="结论">结论</h2>
+<p>目前的桌面端仅仅是打包后的网页版，并没有添加其他网盘客户端常见的各类功能，甚至不包含手机客户端的相册查看/上传功能，仅供尝鲜体验。</p>
+<h2 id="下载地址">下载地址</h2>
+<p><a href="https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive/2.1.1/installer/win32/ia32/aDrive-2.1.1.exe">Windows</a><br>
+<a href="https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive/2.1.1/installer/darwin/x64/aDrive-2.1.1.dmg">macOS</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蛋白终末旅行]]></title>
         <id>https://marcuspierce.github.io/post/protein-cn/</id>
@@ -399,8 +439,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1420881"><label class="task-list-item-label" for="task-item-1420881"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4393939"><label class="task-list-item-label" for="task-item-4393939"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-384118"><label class="task-list-item-label" for="task-item-384118"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8175340"><label class="task-list-item-label" for="task-item-8175340"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
