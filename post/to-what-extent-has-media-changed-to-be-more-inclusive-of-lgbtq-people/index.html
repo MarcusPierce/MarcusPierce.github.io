@@ -1,0 +1,365 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>To what extent has media changed to be more inclusive of LGBTQ people? | 毛胚房</title>
+
+<link rel="shortcut icon" href="https://marcuspierce.github.io/favicon.ico?v=1618801653874">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://marcuspierce.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            毛胚房
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1618801653874"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    To what extent has media changed to be more inclusive of LGBTQ people?
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-04-19 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="catalogue"><strong>Catalogue</strong></h2>
+<blockquote>
+<h4 id="introduction">Introduction</h4>
+<h4 id="how-do-lgbtq-people-find-identity-in-media">How do LGBTQ+ people find identity in media?</h4>
+<h4 id="why-are-lgbtq-related-films-becoming-more-mainstream">Why are LGBTQ-related films becoming more mainstream?</h4>
+<h4 id="why-is-representation-of-lgbt-films-important-in-the-mainstream">Why is representation of LGBT films important in the mainstream?</h4>
+<h4 id="how-does-the-audience-feel-about-lgbtq-related-media">How does the audience feel about LGBTQ-related media?</h4>
+<h4 id="conclusion">Conclusion</h4>
+<h4 id="references">References</h4>
+</blockquote>
+<h2 id="how-do-lgbtq-people-find-identity-in-media-2">How do LGBTQ+ people find identity in media?</h2>
+<h3 id="video-game">Video game</h3>
+<blockquote>
+<p>LGBTQ+ players may not be able to express themselves in daily life, but they can find their place in the game through more inclusive virtual characters. Video games can create a world where everyone can be themselves. (Brooks, 2021)</p>
+</blockquote>
+<h4 id="changing-environment">Changing environment</h4>
+<p>In traditional cognition, there are eight categories of art, which are</p>
+<ol>
+<li>Painting</li>
+<li>Sculpture</li>
+<li>Architecture</li>
+<li>Music</li>
+<li>Literature</li>
+<li>Dance</li>
+<li>Drama</li>
+<li>Film</li>
+</ol>
+<p>May 10, 2011, “the National Endowment for the Arts will be renaming its “Arts on Television and Radio” program “Arts in Media.” The new program will include grants for video-game creators, as well as for artists who create mobile and interactive platforms.” (<em>National Endowment For The &quot;ARTS&quot;, Including Video Games?</em> 2011)</p>
+<p>This is tantamount to United State federal recognition of video games as “art,”</p>
+<p>The video game became the ninth art.</p>
+<p>This is the inevitable result. <strong>The universal law of the development of art is to give people a higher sense of the work of art.</strong> Games today are pushed to their limits in terms of production quality and budget,</p>
+<p>Industry Analyst Michael Pachter estimated the development budget for the Red Dead Redemption 2 was between <strong>US$80 million</strong> and <strong>US$100 million</strong>. (Pachter, Red Dead Redemption 2 Cost To Make)</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Michael%20Pachter.jpg" alt="MichaelPachter" loading="lazy"></figure>
+<p>(Michael Pachter, nintendotoday.com)</p>
+<p>As the market develops and competition heats up, the game begins to have more demanding audience, carrying more advanced story, and more three-dimensional and diverse characters.</p>
+<h4 id="role-play">Role Play</h4>
+<p>Games have a unique advantage over other art forms in that you get feedback on your actions. This in itself is what games were designed for, to be &quot;played&quot;, and this advantage has given rise to the largest variety of games today:</p>
+<p><code>RPG</code> Role-playing game</p>
+<p>The protagonist Jacob Frye of Assassin's Creed Syndicate, games released by Ubisoft Quebec on November 19, 2015 is a bisexual.</p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Assassin's%20Creed%20Syndicate.webp" alt="Assassin'sCreedSyndicate" loading="lazy"></figure>
+<p>(Assassin's Creed Syndicate, epicgames.com)</p>
+<p>And Ellie, The protagonist of Sony’s first party game studio Naughty Dog’s game, The Last of Us Part II, is a lesbian.</p>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/The%20Last%20of%20Us%20Part%20II.webp" alt="TheLastofUsPartII" loading="lazy"></figure>
+<p>(The Last of Us Part II, playstation.com)</p>
+<p>​	In 2007, the Stanford University Department of Communication began studying how the image of virtual characters in games influences gamers. Researchers Nick Yee and Jeremy Bailenson began to observe whether virtual character images affect players' behavior in the game.</p>
+<p>In the experiment, players first ranked the character images according to their attractiveness. Each person was then assigned a character and talked to each other in a virtual scenario. The study found that players with more attractive personas behaved more confidently in their interactions, such as being more willing to approach other characters in the VR environment, or being more proactive in introducing themselves and inviting others to chat. (Brooks, 2021)</p>
+<p>Games give players a chance to express themselves, which may help LGBTQ+ people become more confident in their lives. This phenomenon is known as the “Proteus effect”. The name comes from the Greek myth of a sea god who known for his ability to shape-shift.</p>
+<p>If more LGBTQ+ role models emerged from all sectors of society, the LGBTQ+ community would feel more comfortable with their gender identity, a demand that can be met in video games because video game creators can create these types of characters and give players the ability to play a role.</p>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/The%20Sims.webp" alt="TheSims" loading="lazy"></figure>
+<p>('Lesbian Pose Packs’ in The Sims, pinknews.co.uk)</p>
+<h3 id="fictional-novels">Fictional Novels</h3>
+<p>All adolescents inevitably grow up with objects to emulate. In other words, role models.</p>
+<p>But for the LGBTQ+ community, finding a role model is difficult. Early on, they even grow up with criticism and negative opinions.</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/AJR%20-%20Role%20Models%20(Official%20Video).png" alt="AJR-RoleModels(OfficialVideo)" loading="lazy"></figure>
+<p>(AJR - Role Models, youtube.com)</p>
+<p>Fictional novels provide a medium in which young people can find the same characters with LGBTQ+ characteristics. They can read the book and identify with the characters.</p>
+<p>In a sample of 126 LGB young adults, the Internet and books were found to be the most inﬂuential media sources, although television and magazines were important as well (Gomillion &amp; Giuliano, 2011)</p>
+<p>Positive character role models are important to the identity development of LGBTQ+ youth, and fiction is an important source of these character role models, but characters in LGBTQ+ fiction still have a tendency to be portrayed as tending toward highly emotional stereotypes. Grief, depression, emotional struggles, and even suicide remain staples of these works. Put another way, these gay novels are not &quot;love stories where the characters are gay,&quot; but rather &quot;gay love stories. It is also common to see same-sex couples appearing in novels in which one partner is portrayed as more masculine and one as more feminine.</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://marcuspierce.github.io/post/alidrive-beta/" class="post-title gt-a-link">
+                    阿里云盘桌面端测试版抢先体验
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/to-what-extent-has-media-changed-to-be-more-inclusive-of-lgbtq-people/" class="leancloud_visitors" data-flag-title="To what extent has media changed to be more inclusive of LGBTQ people?">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'peTAdPndMe7GFWAD7UbpH6AU-9Nh9j0Va',
+		appKey: 'AfCzYBdGFlOovpEpLcAebfEg',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: '开始指点江山',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">MarcusPierce 个人博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/MarcusPierce" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.twitter.com/TheMarcusPierce" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://marcuspierce.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
