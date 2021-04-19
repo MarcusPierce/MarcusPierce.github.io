@@ -1823,101 +1823,101 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #f8f9fa!important;
+          background: #f9f9f9!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #f1f3f5!important;
+          background: #f3f3f3!important;
         }
         
         .gt-bg-content-color-first {
-          background: #212529!important;
+          background: #5e5e5e!important;
         }
         
         .gt-bg-content-color-second {
-          background: #212529!important;
+          background: #BFBFBF!important;
         }
         
         .gt-bg-accent-color-first {
-          background: #e03131!important;
+          background: #8b959f!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(224,49,49,0.2)!important;
+          background: RGBA(139,149,159,0.14)!important;
         }
         
         .gt-c-theme-color-first {
-          color: #f8f9fa!important;
+          color: #f9f9f9!important;
         }
         
         .gt-c-theme-color-second {
-          color: #f1f3f5!important;
+          color: #f3f3f3!important;
         }
         
         .gt-c-content-color-first {
-          color: #212529!important;
+          color: #5e5e5e!important;
         }
         
         .gt-c-content-color-second {
-          color: #212529!important;
+          color: #BFBFBF!important;
         }
         
         .gt-c-accent-color-first {
-          color: #e03131!important;
+          color: #8b959f!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(224,49,49,0.2)!important;
+          color: RGBA(139,149,159,0.14)!important;
         }
         
         body {
-          color: #212529!important;
+          color: #5e5e5e!important;
         }
         
         a {
-          color: #e03131!important;
+          color: #8b959f!important;
         }
         
         .post-content h1 {
           display: inline-block;
-          color: #212529!important;
+          color: #5e5e5e!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(224,49,49,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(139,149,159,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #212529!important;
+          color: #5e5e5e!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(224,49,49,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(139,149,159,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #212529!important;
+          color: #5e5e5e!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(224,49,49,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(139,149,159,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #e03131!important;
+          color: #8b959f!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(224,49,49,0.2)!important;
-          border-color: #e03131!important;
+          background: RGBA(139,149,159,0.14)!important;
+          border-color: #8b959f!important;
         }
         
         .gt-post-content code {
-          background: RGBA(224,49,49,0.2)!important;
+          background: RGBA(139,149,159,0.14)!important;
         }
         
         input::placeholder {
-          color: #212529!important;
+          color: #BFBFBF!important;
         }
         
         .search-input {
-          color: #212529!important;
-          background-color: #f1f3f5!important;
+          color: #5e5e5e!important;
+          background-color: #f3f3f3!important;
         }
          
       @include-when-export url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap');
