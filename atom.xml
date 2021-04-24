@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-24T15:01:38.973Z</updated>
+    <updated>2021-04-24T15:14:04.292Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -287,12 +287,8 @@ The protein is no longer protein, it begins to be absorbed by the intestinal cil
         <link href="https://marcuspierce.github.io/post/how-to-use-teambition/">
         </link>
         <updated>2021-04-12T07:16:02.000Z</updated>
-        <summary type="html"><![CDATA[<h2 id="导语">导语</h2>
-]]></summary>
         <content type="html"><![CDATA[<h2 id="导语">导语</h2>
-<!-- more -->
 <p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
-<!-- more -->
 <p>其本质上是一款类 <strong>Trello</strong> 的任务管理看板应用，经过多年的迭代，从一个单纯的看板发展到如今的办公套件，发展路线和<strong>钉钉</strong>相似。事实上，这两款应用的确可以在日历等功能联动。除此之外，<strong>Teambition 网盘</strong>在与<strong>阿里网盘</strong>的内部竞争中宣告关闭，此后 <strong>Teambition</strong> 内部网盘功能也会直接接入阿里网盘。</p>
 <p>作为<strong>钉钉</strong>和<strong>阿里网盘</strong>两款软件的重度用户，在比较了 <strong>Trello</strong> 和 <strong>Teambition</strong> 后还是选择了 <strong>Teambition</strong>，原因不外乎国内服务本地化更好以及访问更稳定。我自己能轻松访问国外服务不代表我的团队成员都拥有这个能力，而且能用<strong>钉钉</strong>账号登陆也是加分项。</p>
 <figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Trello.png" alt="Trello" loading="lazy"></figure>
@@ -617,8 +613,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1061398"><label class="task-list-item-label" for="task-item-1061398"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1558900"><label class="task-list-item-label" for="task-item-1558900"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1291866"><label class="task-list-item-label" for="task-item-1291866"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-521097"><label class="task-list-item-label" for="task-item-521097"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
@@ -755,7 +751,10 @@ values (2, 'D''artagnian');
         <link href="https://marcuspierce.github.io/post/Markdown-Advance/">
         </link>
         <updated>2021-03-24T06:29:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>Forked from https://github.com/fandongtongxue/fandongtongxue.github.io</p>
+]]></summary>
         <content type="html"><![CDATA[<p>Forked from https://github.com/fandongtongxue/fandongtongxue.github.io</p>
+<!-- more -->
 <h2 id="前言">前言</h2>
 <p>众所周知，Markdown 是一个很方便的编辑器了，基本的用法比如</p>
 <h3 id="1标题类用法">1.标题类用法</h3>
@@ -902,7 +901,10 @@ values (2, 'D''artagnian');
         <link href="https://marcuspierce.github.io/post/what-is-markdown/">
         </link>
         <updated>2021-03-24T06:29:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>Forked from https://github.com/younghz/Markdown</p>
+]]></summary>
         <content type="html"><![CDATA[<p>Forked from https://github.com/younghz/Markdown</p>
+<!-- more -->
 <h2 id="主要内容">主要内容</h2>
 <blockquote>
 <h4 id="markdown是什么">Markdown<em>是什么</em>？</h4>
