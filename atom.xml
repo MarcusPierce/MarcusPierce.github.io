@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-24T14:58:42.237Z</updated>
+    <updated>2021-04-24T15:01:38.973Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://marcuspierce.github.io/post/LGBTQ+/">
         </link>
         <updated>2021-04-19T03:01:48.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="iframe-srcplayerbilibilicomplayerhtmlaid845157241bvidbv1m54y1l7whcid328389461page1-scrollingno-border0-frameborderno-framespacing0-allowfullscreentrue-iframe"><iframe src="//player.bilibili.com/player.html?aid=845157241&bvid=BV1m54y1L7wh&cid=328389461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></h2>
+        <content type="html"><![CDATA[<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=145147963&aid=84267566&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>
+</div>
+<hr>
 <h2 id="catalogue"><strong>Catalogue</strong></h2>
 <blockquote>
 <h4 id="introduction">Introduction</h4>
@@ -285,9 +288,9 @@ The protein is no longer protein, it begins to be absorbed by the intestinal cil
         </link>
         <updated>2021-04-12T07:16:02.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="导语">导语</h2>
-<p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
 ]]></summary>
         <content type="html"><![CDATA[<h2 id="导语">导语</h2>
+<!-- more -->
 <p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
 <!-- more -->
 <p>其本质上是一款类 <strong>Trello</strong> 的任务管理看板应用，经过多年的迭代，从一个单纯的看板发展到如今的办公套件，发展路线和<strong>钉钉</strong>相似。事实上，这两款应用的确可以在日历等功能联动。除此之外，<strong>Teambition 网盘</strong>在与<strong>阿里网盘</strong>的内部竞争中宣告关闭，此后 <strong>Teambition</strong> 内部网盘功能也会直接接入阿里网盘。</p>
@@ -614,8 +617,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6258968"><label class="task-list-item-label" for="task-item-6258968"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9274942"><label class="task-list-item-label" for="task-item-9274942"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1061398"><label class="task-list-item-label" for="task-item-1061398"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1558900"><label class="task-list-item-label" for="task-item-1558900"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
