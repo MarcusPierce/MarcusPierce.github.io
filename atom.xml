@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-24T11:13:29.820Z</updated>
+    <updated>2021-04-24T14:47:13.109Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://marcuspierce.github.io/post/LGBTQ+/">
         </link>
         <updated>2021-04-19T03:01:48.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="catalogue"><strong>Catalogue</strong></h2>
+        <summary type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=845157241&bvid=BV1m54y1L7wh&cid=328389461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></summary>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=845157241&bvid=BV1m54y1L7wh&cid=328389461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<!-- more -->
+<h2 id="catalogue"><strong>Catalogue</strong></h2>
 <blockquote>
 <h4 id="introduction">Introduction</h4>
 <h4 id="how-do-lgbtq-people-find-identity-in-media">How do LGBTQ+ people find identity in media?</h4>
@@ -599,8 +602,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3285088"><label class="task-list-item-label" for="task-item-3285088"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5781205"><label class="task-list-item-label" for="task-item-5781205"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6827167"><label class="task-list-item-label" for="task-item-6827167"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-827600"><label class="task-list-item-label" for="task-item-827600"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
@@ -739,8 +742,7 @@ values (2, 'D''artagnian');
         <updated>2021-03-24T06:29:17.000Z</updated>
         <content type="html"><![CDATA[<p>Forked from https://github.com/fandongtongxue/fandongtongxue.github.io</p>
 <h2 id="前言">前言</h2>
-<p>众所周知，Markdown 是一个很方便的编辑器了,基本的用法<br>
-比如</p>
+<p>众所周知，Markdown 是一个很方便的编辑器了，基本的用法比如</p>
 <h3 id="1标题类用法">1.标题类用法</h3>
 <h1 id="标题1">标题1</h1>
 <h2 id="标题2">标题2</h2>
