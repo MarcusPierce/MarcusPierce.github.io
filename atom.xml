@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-24T14:47:13.109Z</updated>
+    <updated>2021-04-24T14:58:06.373Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -16,9 +16,7 @@
         <link href="https://marcuspierce.github.io/post/LGBTQ+/">
         </link>
         <updated>2021-04-19T03:01:48.000Z</updated>
-        <summary type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=845157241&bvid=BV1m54y1L7wh&cid=328389461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></summary>
-        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=845157241&bvid=BV1m54y1L7wh&cid=328389461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-<!-- more -->
+        <content type="html"><![CDATA[<h2 id="iframe-srcplayerbilibilicomplayerhtmlaid845157241bvidbv1m54y1l7whcid328389461page1-scrollingno-border0-frameborderno-framespacing0-allowfullscreentrue-iframe"><iframe src="//player.bilibili.com/player.html?aid=845157241&bvid=BV1m54y1L7wh&cid=328389461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></h2>
 <h2 id="catalogue"><strong>Catalogue</strong></h2>
 <blockquote>
 <h4 id="introduction">Introduction</h4>
@@ -163,8 +161,12 @@
         <link href="https://marcuspierce.github.io/post/alidrive-beta/">
         </link>
         <updated>2021-04-13T06:44:37.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>阿里云盘</strong>是阿里巴巴继酷盘后第二次尝试加入网盘大战的产物。</p>
-<p>这次带上了阿里的前缀，象征其倾注资源的决心与内部的高地位。</p>
+        <summary type="html"><![CDATA[<p><strong>阿里云盘</strong>是阿里巴巴继酷盘后第二次尝试加入网盘大战的产物。<br>
+这次带上了阿里的前缀，象征其倾注资源的决心与内部的高地位。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>阿里云盘</strong>是阿里巴巴继酷盘后第二次尝试加入网盘大战的产物。<br>
+这次带上了阿里的前缀，象征其倾注资源的决心与内部的高地位。</p>
+<!-- more -->
 <h3 id="相关阅读">相关阅读</h3>
 <p><a href="https://sspai.com/post/65666">刚刚上线的阿里云盘很贴心，但它还缺一件重要的东西</a></p>
 <p><a href="https://sspai.com/post/64115">阿里云盘和 Teambition 网盘</a></p>
@@ -203,7 +205,10 @@
         <link href="https://marcuspierce.github.io/post/protein-cn/">
         </link>
         <updated>2021-04-13T06:33:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>一道炫丽的光芒刺痛了他的眼睛</p>
+]]></summary>
         <content type="html"><![CDATA[<p>一道炫丽的光芒刺痛了他的眼睛</p>
+<!-- more -->
 <p>他尝试闭上自己的眼睛，却发现自己根本没有感光器官</p>
 <p>“我是……谁？我在哪？”</p>
 <p>无数的疑问等待着解决，但是他却无法发出声音来。</p>
@@ -239,8 +244,11 @@
         <link href="https://marcuspierce.github.io/post/the-journey-of-protein/">
         </link>
         <updated>2021-04-13T06:30:41.000Z</updated>
-        <content type="html"><![CDATA[<p>A dazzling light stung his eyes.<br>
-He tried to close his eyes but found that he had no light-sensitive organs at all.<br>
+        <summary type="html"><![CDATA[<p>A dazzling light stung his eyes.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>A dazzling light stung his eyes.</p>
+<!-- more -->
+<p>He tried to close his eyes but found that he had no light-sensitive organs at all.<br>
 &quot;I am ...... who? Where am I?&quot;<br>
 Countless questions were waiting to be addressed, but he was unable to make a sound.<br>
 Looking around, he found himself immersed in a sea of white<br>
@@ -276,8 +284,12 @@ The protein is no longer protein, it begins to be absorbed by the intestinal cil
         <link href="https://marcuspierce.github.io/post/how-to-use-teambition/">
         </link>
         <updated>2021-04-12T07:16:02.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="导语">导语</h2>
+<p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
+]]></summary>
         <content type="html"><![CDATA[<h2 id="导语">导语</h2>
 <p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
+<!-- more -->
 <p>其本质上是一款类 <strong>Trello</strong> 的任务管理看板应用，经过多年的迭代，从一个单纯的看板发展到如今的办公套件，发展路线和<strong>钉钉</strong>相似。事实上，这两款应用的确可以在日历等功能联动。除此之外，<strong>Teambition 网盘</strong>在与<strong>阿里网盘</strong>的内部竞争中宣告关闭，此后 <strong>Teambition</strong> 内部网盘功能也会直接接入阿里网盘。</p>
 <p>作为<strong>钉钉</strong>和<strong>阿里网盘</strong>两款软件的重度用户，在比较了 <strong>Trello</strong> 和 <strong>Teambition</strong> 后还是选择了 <strong>Teambition</strong>，原因不外乎国内服务本地化更好以及访问更稳定。我自己能轻松访问国外服务不代表我的团队成员都拥有这个能力，而且能用<strong>钉钉</strong>账号登陆也是加分项。</p>
 <figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Trello.png" alt="Trello" loading="lazy"></figure>
@@ -602,8 +614,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6827167"><label class="task-list-item-label" for="task-item-6827167"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-827600"><label class="task-list-item-label" for="task-item-827600"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4490449"><label class="task-list-item-label" for="task-item-4490449"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3606443"><label class="task-list-item-label" for="task-item-3606443"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
