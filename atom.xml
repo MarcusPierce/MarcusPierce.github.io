@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-28T02:48:26.807Z</updated>
+    <updated>2021-04-28T03:42:30.902Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -10,6 +10,14 @@
     <logo>https://marcuspierce.github.io/images/avatar.png</logo>
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
+    <entry>
+        <title type="html"><![CDATA[First People’s Principles of Learning]]></title>
+        <id>https://marcuspierce.github.io/post/first-peoples-principles-of-learning/</id>
+        <link href="https://marcuspierce.github.io/post/first-peoples-principles-of-learning/">
+        </link>
+        <updated>2021-04-28T03:41:43.000Z</updated>
+        <content type="html"><![CDATA[<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FL8fJsxpZD9It4EqvVkJaI3%2FFirst-Nation%3Fnode-id%3D0%253A1" allowfullscreen></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LGBTQ+ 群体如何在媒体中找寻自我？]]></title>
         <id>https://marcuspierce.github.io/post/LGBTQ+-identity-in-media/</id>
@@ -729,8 +737,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7117174"><label class="task-list-item-label" for="task-item-7117174"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1368925"><label class="task-list-item-label" for="task-item-1368925"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5156387"><label class="task-list-item-label" for="task-item-5156387"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3458729"><label class="task-list-item-label" for="task-item-3458729"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
@@ -859,156 +867,6 @@ values (2, 'D''artagnian');
 <p>骑手小李还没从震惊中回过神，吴某迅速从背后袭击了小李，随后在小李的手机上，以对方的语气安抚外卖平台上的商家，声称此事已经结束。</p>
 <p>草草处理过现场，吴某立刻骑上小李的电动车，赶往星河街路口。</p>
 <p>一直等候在路口的袁某家属发现骑手重新出现，决定再次撞倒骑手，以便调换赎金解救袁某，不料这一次没控制好踩油门的力道，心急如焚的吴某被当场撞死……</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Markdown-Advance]]></title>
-        <id>https://marcuspierce.github.io/post/Markdown-Advance/</id>
-        <link href="https://marcuspierce.github.io/post/Markdown-Advance/">
-        </link>
-        <updated>2021-03-24T06:29:17.000Z</updated>
-        <summary type="html"><![CDATA[<p>Forked from https://github.com/fandongtongxue/fandongtongxue.github.io</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Forked from https://github.com/fandongtongxue/fandongtongxue.github.io</p>
-<!-- more -->
-<h2 id="前言">前言</h2>
-<p>众所周知，Markdown 是一个很方便的编辑器了，基本的用法比如</p>
-<h3 id="1标题类用法">1.标题类用法</h3>
-<h1 id="标题1">标题1</h1>
-<h2 id="标题2">标题2</h2>
-<h3 id="标题3">标题3</h3>
-<h4 id="标题4">标题4</h4>
-<h5 id="标题5">标题5</h5>
-<h6 id="标题6">标题6</h6>
-<pre><code># 标题1
-## 标题2
-### 标题3
-#### 标题4
-##### 标题5
-###### 标题6
-</code></pre>
-<h3 id="2插入图片或超链接">2.插入图片或超链接</h3>
-<figure data-type="image" tabindex="1"><img src="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg" alt="图片描述" loading="lazy"></figure>
-<p><a href="http://blog.fandong.me/2017/08/25/Markdown-Advance/">超链接描述</a></p>
-<pre><code>![图片描述](http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg)
-
-[超链接描述](http://blog.fandong.me/2017/08/25/Markdown-Advance/)
-</code></pre>
-<h3 id="3插入表格">3.插入表格</h3>
-<table>
-<thead>
-<tr>
-<th>第一列</th>
-<th>第二列</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>第一行第一列</td>
-<td>第一行第二列</td>
-</tr>
-<tr>
-<td>第二行第一列</td>
-<td>第二行第二列</td>
-</tr>
-<tr>
-<td>第三行第一列</td>
-<td>第三行第二列</td>
-</tr>
-</tbody>
-</table>
-<pre><code>第一列 | 第二列
-------- | -------
-第一行第一列 | 第一行第二列
-第二行第一列 | 第二行第二列
-第三行第一列 | 第三行第二列
-</code></pre>
-<h3 id="4列表">4.列表</h3>
-<ul>
-<li>第一条</li>
-<li>第二条</li>
-</ul>
-<pre><code>- 第一条
-- 第二条
-</code></pre>
-<h3 id="5代码块">5.代码块</h3>
-<pre><code>printf(&quot;Hello world!&quot;)
-</code></pre>
-<figure data-type="image" tabindex="2"><img src="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Code.png" alt="代码块" loading="lazy"></figure>
-<h3 id="6引用">6.引用</h3>
-<blockquote>
-<p>引用</p>
-</blockquote>
-<pre><code>&gt;引用
-</code></pre>
-<h3 id="7markdown嵌套视频厉害了">7.Markdown嵌套视频(厉害了)</h3>
-<video id="video" controls="" preload="none" poster="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg">
-      <source id="mp4" src="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
-      </video>
-<pre><code>&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg&quot;&gt;
-      &lt;source id=&quot;mp4&quot; src=&quot;http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4&quot; type=&quot;video/mp4&quot;&gt;
-      &lt;/video&gt;
-</code></pre>
-<h3 id="8markdown嵌套音频厉害了">8.Markdown嵌套音频(厉害了)</h3>
-<audio id="audio" controls="" preload="none">
-      <source id="mp3" src="http://![代码块](http://qiniu.cloud.fandong.me/2017-08-26-Markdown-Advance-Code.png)
-/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3">
-      </audio>
-<p>​</p>
-<pre><code>&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-      &lt;source id=&quot;mp3&quot; src=&quot;http://qiniu.cloud.fandong.me/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3&quot;&gt;
-      &lt;/audio&gt;
-</code></pre>
-<h3 id="9想在别的地方让别人给你的仓库star的美好方式厉害了">9.想在别的地方让别人给你的仓库Star的美好方式(厉害了)</h3>
-<h4 id="参数">参数</h4>
-<table>
-<thead>
-<tr>
-<th>参数</th>
-<th>必传</th>
-<th>类型</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>user</td>
-<td>true</td>
-<td>String</td>
-<td>用户名</td>
-</tr>
-<tr>
-<td>repo</td>
-<td>true</td>
-<td>String</td>
-<td>仓库名字</td>
-</tr>
-<tr>
-<td>type</td>
-<td>true</td>
-<td>String</td>
-<td>star</td>
-</tr>
-<tr>
-<td>count</td>
-<td>true</td>
-<td>String</td>
-<td>数量</td>
-</tr>
-</tbody>
-</table>
-<iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=fandongtongxue&repo=fandongtongxue.github.io&type=star&count=true" >
-                    </iframe>
-​                    
-<pre><code>&lt;iframe
-                        style=&quot;margin-left: 2px; margin-bottom:-5px;&quot;
-                        frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;100px&quot; height=&quot;20px&quot;
-                        src=&quot;https://ghbtns.com/github-btn.html?user=fandongtongxue&amp;repo=fandongtongxue.github.io&amp;type=star&amp;count=true&quot; &gt;
-                    &lt;/iframe&gt;
-</code></pre>
 ]]></content>
     </entry>
 </feed>
