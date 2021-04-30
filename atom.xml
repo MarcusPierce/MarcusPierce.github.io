@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-28T03:42:30.902Z</updated>
+    <updated>2021-04-30T00:41:32.892Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -10,6 +10,41 @@
     <logo>https://marcuspierce.github.io/images/avatar.png</logo>
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
+    <entry>
+        <title type="html"><![CDATA[同一个世界，不同的糯米饭]]></title>
+        <id>https://marcuspierce.github.io/post/glutinous-rice/</id>
+        <link href="https://marcuspierce.github.io/post/glutinous-rice/">
+        </link>
+        <updated>2021-04-30T00:40:19.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="前言">前言</h3>
+<p>糯米饭（Glutinous rice），也叫炊饭，是每个温州人共同的记忆，一个土生土长温州人的记忆中不可能缺少早餐里糯米饭和豆浆的默认组合。单单“糯米饭”这个名字并不能说明什么，只要使用了糯米就可以如此称呼自己，中国各地随处可见。</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/%E7%B3%AF%E7%B1%B3%E9%A5%AD.png" alt="糯米饭" loading="lazy"></figure>
+<p>但是「温州糯米饭」既然能在百度百科中拥有自己的专属词条显然有其独到之处。</p>
+<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/%E6%B8%A9%E5%B7%9E%E7%B3%AF%E7%B1%B3%E9%A5%AD.png" alt="温州糯米饭" loading="lazy"></figure>
+<h3 id="起承">起承</h3>
+<p>某个午休，来自东北的校长夫人密斯陈问大家温州有什么美食，当时在场还有几个同学，我们的回答不外乎馄饨，松糕，灯盏糕，鱼圆，猪脏粉，糯米饭云云。密斯陈听到糯米饭精神：</p>
+<p>“糯米饭我吃过，上面有鲍鱼。”</p>
+<p>我和我的小伙伴们面面相觑，彼此迥异的脸上却挂着相仿的疑惑。</p>
+<p>有人打破了沉默：“嗯¿”</p>
+<p>这下密斯陈的脸上也挂起相同的疑惑了：“有什么问题吗？”</p>
+<p>“老师，你确定上面有鲍鱼吗？”</p>
+<p>“对啊。”</p>
+<p>“那就不是糯米饭。”</p>
+<p>“它写着糯米饭。”</p>
+<p>“那就是用了糯米的饭，不是温州糯米饭。”</p>
+<p>争论持续到午休结束，我尝试说服她只有肉沫汤，糯米，油条碎三者融合的原教旨主义糯米饭才是温州糯米饭，但是贝加尔湖畔的冷冽寒风赋予了东北血统的她强硬的态度。</p>
+<p>“那就是糯米饭，鲍鱼糯米饭。” 她笃定的再次重申。</p>
+<p>我试探着问道：“老师，要不明早来食堂见识下糯米饭？”</p>
+<p>“那我下次有机会也给你见识下鲍鱼糯米饭。” 她爽快的回应道。</p>
+<h3 id="转合">转合</h3>
+<p>托她的福，我有幸见识到了从未设想过的糯米饭，虽然没有鲍鱼的，说是没了。外观和我设想的略有不同，本以为会是煲仔饭那样的大家伙，但是最后见到的却是五六个小包装组成的小山。肉汤，油条，饭还有一些配料都被单独分开包装在专属的容器里。肉汤里加了茴香，闻着也像真家伙。油条也很劲脆，和真正的糯米饭如出一辙。**但那碗重中之重的饭，是紫色的。**紫米饭的口感也很糯米饭，但是带点甜味，这让整碗饭的定位诡异了起来，好似甜豆浆里加了油条和紫菜，又像咸豆浆里添的那勺白糖。不难吃，但如此的奇特和诡异。</p>
+<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/%E9%B2%8D%E9%B1%BC%E7%B3%AF%E7%B1%B3%E9%A5%AD.jpeg" alt="鲍鱼糯米饭" loading="lazy"></figure>
+<p>事到如今，我突然想到，我们是否早已习惯带着先入为主的态度来审视外界的一切，当习惯成为传统，规定变成陈规，文化得到传承的同时，创新又好像被扼杀。我可能永远都无法接受紫色的甜糯米饭，但是我会尝试去理解吃鲍鱼糯米饭的人。</p>
+<h3 id="后记">后记</h3>
+<p>校长女儿把吃完的碗回收利用做成了工字钉收纳盒。</p>
+<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2021/04/30/5doUxm9sl4AzhFV.jpg" alt="5doUxm9sl4AzhFV" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[First People’s Principles of Learning]]></title>
         <id>https://marcuspierce.github.io/post/first-peoples-principles-of-learning/</id>
@@ -737,8 +772,8 @@ values (2, 'D''artagnian');
 </ol>
 <p>快捷键：<code>control + shift + L</code></p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5156387"><label class="task-list-item-label" for="task-item-5156387"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3458729"><label class="task-list-item-label" for="task-item-3458729"> 买水</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8111210"><label class="task-list-item-label" for="task-item-8111210"> 付帐</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-405156"><label class="task-list-item-label" for="task-item-405156"> 买水</label></li>
 </ul>
 <p>快捷键：<code>cmd + t</code></p>
 <h4 id="wiki-链接">Wiki 链接</h4>
@@ -843,30 +878,6 @@ values (2, 'D''artagnian');
 <p>Szalay, J. (2015, December 10). <em>What Is Protein?</em> LiveScience. https://www.livescience.com/53044-protein.html.</p>
 <p>Embl-Ebi. (n.d.). Biomacromolecular structures. https://www.ebi.ac.uk/training/online/courses/biomacromolecular-structures/biomacromolecular-structures/.</p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一篇真实新闻]]></title>
-        <id>https://marcuspierce.github.io/post/ture-news/</id>
-        <link href="https://marcuspierce.github.io/post/ture-news/">
-        </link>
-        <updated>2021-03-24T07:05:43.000Z</updated>
-        <content type="html"><![CDATA[<p>1月4日，本市无业游民吴某绑架了其前雇主袁某，并向袁某家属索要赎金十五万元。袁某家属放弃报警，承诺当天凑齐赎金。</p>
-<p>随后，吴某为了安全收到赎金，进行了一系列迷之操作:</p>
-<p>吴某指示袁某家属，于夜间十一点三十分在星河街路口等候（此处距离市中心较远，夜间路上几乎没有其他车辆行人），等到某外卖平台的骑手路过时，开车将其撞倒。趁现场混乱之际，将赎金和外卖箱中的餐品调换，以此完成支付赎金的环节；</p>
-<p>为了避免引起外卖骑手的怀疑，吴某还让袁某家属提前点了一份外卖，并将标签上标有下单时间的部分撕毁，把剩余的部分标签绑在装有赎金的塑料袋上；吴某选定了外卖商家，星河街将是送餐的必经之路；</p>
-<p>吴某利用虚假身份信息，租下了一栋居民楼八层和九层的两个房间，吴某将送餐地址定在九层，自己则躲在八层。一旦袁某家属偷偷报警，警方便不能在送餐地址所在的九楼将嫌疑人吴某抓捕归案。</p>
-<p>当晚，嫌疑人吴某在约定时间到来之前点好外卖，之后也如同吴某所预想的一样，袁某家属成功在路口撞倒了骑手小李。</p>
-<p>尽管骑手小李不是事故责任方，但是由于担心对方反过来让自己赔钱，于是强忍疼痛，迅速骑车逃离现场，继续送餐。为了避免收到差评，小李在与吴某和商家的沟通中，刻意隐瞒了此事。嫌疑人吴某收到外卖后，发现塑料袋中并不是赎金，猜测骑手小李偶然间看到了赎金并私自藏匿。</p>
-<p>吴某当即对被绑的袁某进行殴打，用袁某掉下的一颗牙齿，威胁商家有食品卫生问题，要求骑手取回餐品重做，试图借此夺回赎金。</p>
-<p>骑手小李因为身体不适，拒绝取餐，沟通一时陷入僵局。</p>
-<p>这时，袁某家属通过短信和嫌疑人吴某取得联系，表明自己确实撞倒了骑手小李，但是因为小李逃得太快，袁某家属并没有完成调换赎金。</p>
-<p>吴某指示袁某家属在原地等候，转头又打下了袁某更多的牙齿，试图以“疑似与命案有关”，恐吓骑手迅速回来取餐，了结此事。</p>
-<p>但是吴某没有想到的是，小李经过权衡利弊，已经提前决定前去取餐。</p>
-<p>精神高度紧张的吴某，想不到小李没打过招呼直接去了九层的送餐地址，匆匆跑上楼时，发现自己忘关了九层的房门，骑手小李已经看到了鲜血淋漓的袁某。</p>
-<p>骑手小李还没从震惊中回过神，吴某迅速从背后袭击了小李，随后在小李的手机上，以对方的语气安抚外卖平台上的商家，声称此事已经结束。</p>
-<p>草草处理过现场，吴某立刻骑上小李的电动车，赶往星河街路口。</p>
-<p>一直等候在路口的袁某家属发现骑手重新出现，决定再次撞倒骑手，以便调换赎金解救袁某，不料这一次没控制好踩油门的力道，心急如焚的吴某被当场撞死……</p>
 ]]></content>
     </entry>
 </feed>
