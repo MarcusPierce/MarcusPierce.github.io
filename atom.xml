@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-04-30T06:54:23.928Z</updated>
+    <updated>2021-05-18T23:21:11.726Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://marcuspierce.github.io/images/avatar.png</logo>
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
+    <entry>
+        <title type="html"><![CDATA[空调房]]></title>
+        <id>https://marcuspierce.github.io/post/air-conditioner/</id>
+        <link href="https://marcuspierce.github.io/post/air-conditioner/">
+        </link>
+        <updated>2021-05-18T23:19:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>本站已内置空调</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本站已内置空调</p>
+<!-- more -->
+<iframe height="740" src="https://ac.yunyoujun.cn"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[空调房]]></title>
+        <id>https://marcuspierce.github.io/post/kong-diao-fang/</id>
+        <link href="https://marcuspierce.github.io/post/kong-diao-fang/">
+        </link>
+        <updated>2021-05-18T23:19:10.000Z</updated>
+        <content type="html"><![CDATA[<iframe height="740" src="https://ac.yunyoujun.cn"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[同一个世界，不同的糯米饭]]></title>
         <id>https://marcuspierce.github.io/post/glutinous-rice/</id>
@@ -515,369 +535,6 @@ The protein is no longer protein, it begins to be absorbed by the intestinal cil
 <p>创始人@齐俊元 毕业于上海交通大学信息管理与信息系统专业，本人也已入驻少数派。</p>
 <figure data-type="image" tabindex="18"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Qi-Junyuan.png" alt="Qi-Junyuan" loading="lazy"></figure>
 <p>感谢你看到这里，祝你拥有美好的一天。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple生态下的开源笔记 - FSNotes]]></title>
-        <id>https://marcuspierce.github.io/post/fsnotes/</id>
-        <link href="https://marcuspierce.github.io/post/fsnotes/">
-        </link>
-        <updated>2021-04-06T05:41:45.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="介绍">介绍</h2>
-<p>FSNotes 是一款支持 macOS 和 iOS 的开源笔记软件。<br>
-官方列出了以下主要特点</p>
-<blockquote>
-<p>Markdown 优先，支持纯文本和 RTF 文件<br>
-轻量流畅，10k+ 文件仍然运行良好<br>
-iCloud Drive 或 Dropbox 同步（任何同步盘）<br>
-多文件夹存储<br>
-操作以键盘为中心，快捷键启发自 nvALT<br>
-自适应双窗格视图，可选垂直或水平排布<br>
-外部编辑器支持，无缝实时同步<br>
-支持超过 170 种编程语言的代码高亮<br>
-支持行内图像<br>
-支持标签<br>
-支持笔记跳转 [[双方括号]]<br>
-支持固定笔记<br>
-支持笔记快捷复制到剪贴板<br>
-黑暗模式<br>
-AES-256 加密<br>
-支持 Mermaid 与 MathJax<br>
-可选的 Git 版本控制和备份</p>
-</blockquote>
-<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/macOS-and-iOS.png" alt="macOS-and-iOS" loading="lazy"><br>
-软件大小仅 13.5 MB，但功能齐全。<br>
-macOS 版完全免费，但提供 Mac App Store 付费下载，用于支持作者开发<br>
-iOS 版付费买断，国区售价¥18。可以选择使用云服务同步到 iOS 后使用其他支持Markdown 的软件进行编辑查看。</p>
-<h2 id="安装">安装</h2>
-<p>macOS端可以使用 Homebrew 进行安装</p>
-<pre><code>brew install fsnotes
-</code></pre>
-<p>或在 GitHub Releases 界面下载<br>
-<a href="https://github.com/glushchenko/fsnotes/releases">GitHub Releases</a></p>
-<h2 id="使用">使用</h2>
-<p>完成安装后，软件内置非常详细的英文使用教学。<br>
-<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Built-in%20tutorial.png" alt="Built-in tutorial" loading="lazy"><br>
-笔者对其进行了翻译，并且在 GitHub 提交了希望增加多语言支持的 Issues<br>
-<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/GitHub%20Issue.png" alt="GitHub-Issue" loading="lazy"></p>
-<p>接下来是本人翻译的使用教学</p>
-<h3 id="1-引言">1. 引言</h3>
-<p>嗨，我的名字是 Oleksandr，我是这个程序的作者。几年前，我发现我最喜欢的笔记应用 nvALT 不再启动了。</p>
-<p>现有的 macOS 和 iOS 替代方案都不适合我，因为我已经当了很多年开发者，所以我尝试编写自己的解决方案。2017年夏天，我在 GitHub 上公布了 FSNotes 的源代码。这是一个糟糕的应用程序。很烂，功能也差。但我没有放弃，贡献者们也没有。</p>
-<p>现在，FSNotes 已被翻译成 12 种语言，使用者遍布全球。功能数量超过一百个，其中还有几十个是独有的。</p>
-<p>如果您喜欢此应用程序，请支持开发。在App Store购买 <a href="https://apps.apple.com/app/fsnotes/id1277179284">Mac App Store</a> 以及在 <a href="https://apps.apple.com/app/fsnotes-manager/id1346501102">AppStore</a> 获得移动版本的FSNotes。</p>
-<p>谨致问候，<br>
-FSNotes 开发者，Oleksandr Hlushchenko<br>
-邮件: support@fsnot.es</p>
-<h3 id="2-链接">2. 链接</h3>
-<p>[[1. 引言]]<br>
-[[2. 链接]]<br>
-[[3. 快捷键]]<br>
-[[4. 侧边栏]]<br>
-[[5. 标签和子标签]]<br>
-[[6. Mermaid 与 MathJax]]<br>
-[[7. 基于 Git 的版本控制]]<br>
-[[8. 容器]]<br>
-[[9. GitHub Flavored Markdown]]<br>
-注：以上内容只能在 FSNotes 软件中点击跳转</p>
-<p>官方网站：https://fsnot.es<br>
-Issues：https://github.com/glushchenko/fsnotes/issues<br>
-Wiki：https://github.com/glushchenko/fsnotes/wiki<br>
-公告：https://twitter.com/fsnotesapp</p>
-<h3 id="3-快捷键">3. 快捷键</h3>
-<p>FSNotes 支持纯键盘操作，是一款快捷键友好的应用。</p>
-<p>您必须学会的最重要的组合键是：</p>
-<p><code>cmd - backtick</code> - 用 CMD+反单引号 (TAB上面那个) 禁用/启用预览模式。</p>
-<p>替代方案: 您可以也可以通过菜单栏中的<strong>视图-切换预览</strong>来完成以上操作 <code>View - Toggle Preview</code></p>
-<h4 id="全局">全局</h4>
-<ul>
-<li><code>cmd + option + shift + L</code> - 打开主窗口并聚焦搜索栏</li>
-<li><code>cmd + option + shift + n</code> - 保存剪贴板</li>
-<li><code>enter</code> - 向右移动文件夹层级（向下）; 侧边栏 &gt; 笔记列表 &gt; 笔记</li>
-<li><code>cmd + enter</code> - 向左移动文件夹层级（向上）; 笔记 &gt; 笔记列表 &gt; 侧边栏</li>
-</ul>
-<h4 id="搜索栏">搜索栏</h4>
-<ul>
-<li><code>down arrow</code> - 用下箭头将焦点移到笔记列表上</li>
-<li><code>enter</code> - 回车新建笔记</li>
-</ul>
-<h4 id="主窗口">主窗口</h4>
-<ul>
-<li><code>esc</code> - 将光标移到搜索栏并清屏（不删除编辑内容）</li>
-<li><code>cmd + L</code> - 聚焦搜索栏</li>
-<li><code>tab</code> - TAB转到下一区域</li>
-<li><code>cmd + backtick</code> - CMD+反单引号 预览模式 (仅限 markdown)</li>
-<li><code>up, down arrows</code> - 下箭头选择笔记</li>
-<li><code>cmd + j</code> - 下一篇笔记</li>
-<li><code>cmd + k</code> - 上一篇笔记</li>
-</ul>
-<h4 id="笔记列表">笔记列表</h4>
-<ul>
-<li><code>cmd + delete</code> - 删除笔记</li>
-<li><code>cmd + r</code> - 重命名笔记</li>
-<li><code>cmd + 8</code> - 固定笔记</li>
-<li><code>cmd + 7</code> - 去除加密（解密之前加密的笔记）</li>
-<li><code>cmd + n</code> - 新建笔记</li>
-<li><code>cmd + shift + n</code> - 新建 RTF</li>
-<li><code>ctrl + cmd + e</code> – 在外部编辑器中打开所选内容</li>
-<li><code>ctrl + cmd + o</code> – 在 Finder 中显示所选内容</li>
-<li><code>shift + cmd + m</code> – 在存储中移动所选笔记</li>
-<li><code>shift + cmd + b</code> – 隐藏侧边栏</li>
-<li><code>cmd + s</code> – 将修订版本保存在 Git 中</li>
-<li><code>cmd + d</code> – 创建笔记副本</li>
-<li><code>cmd + alt + l</code> - 加密/解密笔记（AES 256）</li>
-</ul>
-<h4 id="编辑">编辑</h4>
-<ul>
-<li><code>fn + f5</code> - 自动完成笔记名称</li>
-<li><code>cmd + `</code>，或点击 <code>View - Toggle preview</code> - 用于启用或禁用markdown预览</li>
-</ul>
-<h3 id="4-侧边栏">4. 侧边栏</h3>
-<p>要切换项目和标签侧边栏按钮 <code>control + cmd + shift + b</code></p>
-<p>您可以选择和过滤无限制的项目和标签。</p>
-<h4 id="每个子文件夹都是一个项目">每个子文件夹都是一个项目</h4>
-<p>在您的存储空间中创建无限制的文件夹。右键单击根文目录(<code>Documents</code>) 并单击“新建文件夹” <code>⌥ option + ⇧ shift + n</code>.</p>
-<p>每个项目都有自己的设置，右键单击项目 - &quot;显示视图选项&quot; <code>cmd + shift + ,</code>.</p>
-<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/aEpF5U.jpg" alt="View" loading="lazy"></figure>
-<p>您可以配置排序、方向、可见性设置。</p>
-<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/8SI0z8.jpg" alt="Preference" loading="lazy"></figure>
-<h3 id="5-标签和子标签">5. 标签和子标签</h3>
-<p>FSNotes version 4 带来了一个令人惊叹的行内标签系统。只需在文字前面加上井号 (#)即可为笔记添加标签。像这样： #hello 。或者，像这样为它们添加子标签： #hello/world 。您能给您的笔记贴多厚的标签？像 #unlimited/sub/tags 。标签会自动完成。输入井号 (#)和标签的第一个字符，然后：</p>
-<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/980h2m.jpg" alt="Hello" loading="lazy"></figure>
-<p>很好！还有别的。每个项目都有自己的标签命名空间。例如，选择“存档”时，仅显示“存档”的笔记中的标签。</p>
-<p>在侧边栏选择的同时按住<code>cmd</code>可以多选多个项目和标签。<br>
-<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Dw6q1e.jpg" alt="Tags" loading="lazy"></p>
-<h3 id="6-mermaid-与-mathjax">6. Mermaid 与 MathJax</h3>
-<h4 id="mermaid-流程图示例">Mermaid 流程图示例</h4>
-<p>支持文档：https://mermaidjs.github.io</p>
-<pre><code class="language-mermaid">sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice-&gt;&gt;John: Hello John, how are you?
-    loop Healthcheck
-        John-&gt;&gt;John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts &lt;br/&gt;prevail!
-    John--&gt;&gt;Alice: Great!
-    John-&gt;&gt;Bob: How about you?
-    Bob--&gt;&gt;John: Jolly good!
-</code></pre>
-<h4 id="mathjax-数学公式示例">MathJax 数学公式示例</h4>
-<p>支持文档：https://www.mathjax.org</p>
-<blockquote>
-<p>请启用菜单栏中的：视图 &gt; Preview MathJax</p>
-</blockquote>
-<p>当 ((<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mi mathvariant="normal">≠</mi><mn>0</mn></mrow><annotation encoding="application/x-tex">a \ne 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel"></span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>))，有两种解法可用于 $$ax^2 + bx + c = 0$$ 它们是</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.276389em;vertical-align:-0.686em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.590389em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathdefault">a</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord mathdefault">b</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">±</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.913389em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">4</span><span class="mord mathdefault">a</span><span class="mord mathdefault">c</span></span></span><span style="top:-2.873389em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12661100000000003em;"><span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mord">.</span></span></span></span></span></p>
-<h3 id="7-基于-git-的版本控制">7. 基于 Git 的版本控制</h3>
-<p>使用 <code>cmd + s</code> 快捷键来保存笔记：</p>
-<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/N6GLic.jpg" alt="Save" loading="lazy"></figure>
-<p>并在菜单栏恢复到历史版本：</p>
-<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/wuxpIT.jpg" alt="History" loading="lazy"></figure>
-<h4 id="自动备份所有笔记">自动备份所有笔记</h4>
-<p>在偏好设置中配置：</p>
-<figure data-type="image" tabindex="6"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/b0YI5D.jpg" alt="Backup" loading="lazy"></figure>
-<p>例如，每小时进行一次备份。</p>
-<h4 id="您还可以备份备份">您还可以备份备份 🤪</h4>
-<p>毕竟再安全也不为过。</p>
-<figure data-type="image" tabindex="7"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/I7YzPX.jpg" alt="BackupBackup" loading="lazy"></figure>
-<h3 id="8-容器">8. 容器</h3>
-<p>什么是容器？“容器”是存放您的文件的文件夹。容器保存一个笔记中使用的文本和其他资源。当然，您可以选择不使用容器。打开偏好设置-&gt; 基本-&gt; 容器并选择“无”。笔记将以纯文本、 Markdown 或 RTF 格式存储。</p>
-<p>我建议对敏感数据使用 TextBundle 容器和加密 TextBundle 容器。请继续阅读</p>
-<h4 id="textbundle-容器">TextBundle 容器</h4>
-<p>文件扩展名 – <code>.textbundle</code></p>
-<p>TextBundle – 这种格式旨在在应用程序之间交换纯文本文件(如 Markdown 或 RTF)时提供更无缝的用户体验。 http://textbundle.org</p>
-<p>例如，一个 Markdown 文件可能包含对外部图像的引用。当从 Markdown 编辑器发送这样的文件到预览器时，用户必须明确指定每一个图像文件的位置。这就是 TextBundle 派上用场的地方。通过将 Markdown 文本和所有引用的图像打包在一个文件中，Text Bundle 提供更方便的体验。</p>
-<h4 id="加密-textbundle-容器">加密 TextBundle 容器</h4>
-<p>文件扩展名 – <code>.etp</code>.</p>
-<p>加密文本包用于笔记加密。它是加密的文本包（压缩包）并用 RNCryptor 加密。RNCryptor 是一种跨平台的数据格式，有很多实现方案。在软件后台，我们有：</p>
-<p>AES-256 加密<br>
-CBC 模式<br>
-PBKDF2 密码延伸<br>
-密码加盐<br>
-随机 IV<br>
-加密后哈希 HMAC<br>
-开放和跨平台</p>
-<p>您可以使用 Python 或 Ruby、JS 等解密任何 FSNotes 笔记(完整列表可在此处找到)<br>
-解压缩并用普通的文本格式快活吧。</p>
-<h3 id="9-github-flavored-markdown">9. GitHub Flavored Markdown</h3>
-<h4 id="标题-h1-h6">标题 h1-h6</h4>
-<p>快捷键：<code>cmd + 1-6</code></p>
-<h4 id="图像">图像</h4>
-<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/p1tpcg.png" alt="icon" loading="lazy"><br>
-快捷键：<code>cmd + shift + i</code></p>
-<h4 id="粗体-斜体-删除线">粗体、斜体、删除线</h4>
-<p><strong>粗体</strong><br>
-快捷键：<code>cmd + b</code></p>
-<p><em>斜体</em><br>
-快捷键：<code>cmd + i</code></p>
-<p><s>删除线</s><br>
-快捷键：<code>cmd + y</code></p>
-<h4 id="引用">引用</h4>
-<blockquote>
-<p>您可以引用<br>
-不止一行</p>
-</blockquote>
-<p>快捷键：<code>cmd + shift + u</code></p>
-<h4 id="代码块">代码块</h4>
-<p>Swift 示例：</p>
-<pre><code class="language-swift">public static func getHighlighter() -&gt; Highlightr? {
-    if let instance = self.hl {
-        return instance
-    }
-    
-    guard let highlightr = Highlightr() else {
-        return nil
-    }
-    
-    highlightr.setTheme(to: &quot;vs&quot;)
-    self.hl = highlightr
-    
-    return self.hl
-}
-</code></pre>
-<p>SQL 示例：</p>
-<pre><code class="language-sql">CREATE TABLE &quot;topic&quot; (
-    &quot;id&quot; serial NOT NULL PRIMARY KEY,
-    &quot;forum_id&quot; integer NOT NULL,
-    &quot;subject&quot; varchar(255) NOT NULL
-);
-ALTER TABLE &quot;topic&quot;
-ADD CONSTRAINT forum_id FOREIGN KEY (&quot;forum_id&quot;)
-REFERENCES &quot;forum&quot; (&quot;id&quot;);
-
--- Initials
-insert into &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)
-values (2, 'D''artagnian');
-</code></pre>
-<p>快捷键：<code>cmd + control + c</code></p>
-<h4 id="code-span">Code span</h4>
-<p><code>One line code span</code></p>
-<p>快捷键：<code>cmd + shift + c</code></p>
-<h4 id="列表-编号列表和待办事项">列表、编号列表和待办事项</h4>
-<ul>
-<li>列表</li>
-</ul>
-<p>快捷键：<code>control + L</code></p>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-</ol>
-<p>快捷键：<code>control + shift + L</code></p>
-<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2582604"><label class="task-list-item-label" for="task-item-2582604"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3169647"><label class="task-list-item-label" for="task-item-3169647"> 买水</label></li>
-</ul>
-<p>快捷键：<code>cmd + t</code></p>
-<h4 id="wiki-链接">Wiki 链接</h4>
-<p>添加 Wiki 链接 [[WikiLinks with emoji 😎]]</p>
-<p>快捷键：<code>cmd + 9</code></p>
-<h2 id="小结">小结</h2>
-<p>以上是 FSNotes 的使用教程，这篇教程将 FSNotes 的常用使用场景基本表现了出来，作为一款以 Markdown 为主的笔记软件，其优缺点都十分明显。<br>
-对于已经有 Markdown 使用经验的朋友，应该已经有了一套自己管理<code>.md</code>文件的工作流。但对于新手，通过一个更加类似传统笔记软件（Evernote，OneNote）的笔记软件来熟悉 Markdown 的使用可以是个非常友好的入门选择。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nutritionist for a Day]]></title>
-        <id>https://marcuspierce.github.io/post/nutritionist-for-a-day/</id>
-        <link href="https://marcuspierce.github.io/post/nutritionist-for-a-day/">
-        </link>
-        <updated>2021-04-01T00:54:44.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="catalogue"><strong>Catalogue</strong></h2>
-<blockquote>
-<h4 id="why-you-should-use-our-healthy-food-plan">Why you should use our healthy food plan</h4>
-<h4 id="the-relationship-between-macromolecules-and-overall-health">The relationship between macromolecules and overall health</h4>
-<h4 id="what-you-should-know-about-carbohydrates">What you should know about carbohydrates</h4>
-<h4 id="what-you-should-know-about-protein">What you should know about protein</h4>
-<h4 id="how-to-implement-it-in-the-school-cafeteria">How to implement it in the school cafeteria</h4>
-<h4 id="references">References</h4>
-</blockquote>
-<h2 id="content"><strong>Content</strong></h2>
-<h3 id="why-you-should-use-our-healthy-food-plan-2">Why you should use our healthy food plan</h3>
-<p>“According to research done at Harvard Chan School of Public Health, following the guidelines presented through the Healthy Eating Pyramid and Healthy Eating Plate can lead to a lower risk of heart disease and premature death.” (Akbaraly, 2011)</p>
-<p>We, as nutritionists with extensive biological training and specializing in cell function and metabolism, can provide healthy food plan for the students on campus at Wenzhou High School No. 22, let students benefit from a healthy diet.</p>
-<h3 id="the-relationship-between-macromolecules-and-overall-health-2">The relationship between macromolecules and overall health</h3>
-<p>Food provides the body with the nutrients it needs to survive. Many of these key nutrients are macromolecules.</p>
-<p>A <strong>monomer</strong> is the unit that can combine with other monomers to form polymers.</p>
-<p>A <strong>polymer</strong> is a large molecule that is composed of many monomers bonded together.</p>
-<h3 id="what-you-should-know-about-carbohydrates-2">What you should know about carbohydrates</h3>
-<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/ZPshRp.jpg" alt="Carbohydrates" loading="lazy"></figure>
-<p>(<em>¿SABIAS QUE? ¿Qué son los Carbohidratos (CHO)?</em> 2020)</p>
-<ul>
-<li><strong>Introduction</strong></li>
-</ul>
-<p>Carbohydrate is a kind of abundant nutrients existing in many foods and beverages. Carbohydrate can provide glucose for the body, which is converted into energy to support body function and physical activity. (<em>Carbohydrates.</em> 2019) In: fruits, vegetables, nuts, cereals have more. (<em>Choose your carbs wisely.</em> 2020)</p>
-<p>Examples: <code>rice</code>,  <code>noodle</code>,  <code>lotus</code>,  <code>root</code>, <code>potato</code>,  <code>taro</code></p>
-<ul>
-<li><strong>Structure</strong></li>
-</ul>
-<p>Monomers of carbohydrates are simple sugars and the basic building blocks of carbohydrates, they are also known as monosaccharides and are used by the cells of living things to store and produce energy. (Achiyan, 2020)</p>
-<p>Polysaccharides are large molecules composed of many smaller monosaccharides. Special enzymes combine these small monomers to form large sugar polymers or polysaccharides. (<em>Disaccharide.</em> 2019)</p>
-<ul>
-<li><strong>Functional group</strong></li>
-</ul>
-<p>There are two functional groups in carbohydrates: carbonyl group and alcohol group. Generally speaking, we add Aldo - or keto - prefixes to carbohydrates to name carbonyl and alcohol functional groups. (<em>Nomenclature of Carbohydrates.</em> 2020)</p>
-<ul>
-<li><strong>Chemical properties</strong></li>
-</ul>
-<ol>
-<li>
-<p>Carbohydrates contain a lot of hydroxyl groups.</p>
-</li>
-<li>
-<p>Carbohydrates are also structural components of cells.</p>
-</li>
-<li>
-<p>Carbohydrates can combine with lipids and proteins.</p>
-</li>
-</ol>
-<h3 id="what-you-should-know-about-protein-2">What you should know about protein</h3>
-<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/H9Wsrk.jpg" alt="Protein" loading="lazy"></figure>
-<p>(Szalay, 2015)</p>
-<ul>
-<li><strong>Introduction</strong></li>
-</ul>
-<p>Protein is a kind of macromolecule that is essential for muscle. It is commonly found in animal products, but it is also found in other sources such as nuts and beans. “Protein makes up about 15 percent of a person’s body weight.” (Szalay, 2015)</p>
-<p>Examples: <code>beef</code>,  <code>lamb</code>,  <code>pork</code>,  <code>root</code>,  <code>milk</code>, <code>eggs</code>, <code>grain</code></p>
-<ul>
-<li><strong>Structure</strong></li>
-</ul>
-<p>Proteins are made up of monomers called amino acids. They are linked together to form a polypeptide chain, which is folded into a three-dimensional structure to form a functional protein. (Embl-Ebi, <em>Biomacromolecular structures</em>)</p>
-<ul>
-<li><strong>Functional group</strong></li>
-</ul>
-<p>Proteins contain many functional groups. These functional groups include alcohols, thiols, thioethers, carboxylic acids, carboxamides, and a variety of basic groups.</p>
-<ul>
-<li><strong>Chemical properties</strong></li>
-</ul>
-<ol>
-<li>Proteins are hydrolyzed by a variety of hydrolytic agents.</li>
-<li>Proteins usually are almost neutral molecules, neither acidic nor basic properties.</li>
-</ol>
-<h3 id="how-to-implement-it-in-the-school-cafeteria-2">How to implement it in the school cafeteria</h3>
-<p>We encourage a healthy and balanced diet based on optimal proportions in school meals.</p>
-<p>50% of a meal should be vegetables and fruits,</p>
-<p>25% whole and intact grains, and 25% is made up of fish, poultry, beans and nuts.</p>
-<p>There is an adequate supply of dietary fiber, carbohydrates and protein.</p>
-<h2 id="references-2">References</h2>
-<blockquote>
-<p>Akbaraly TN, Ferrie JE, Berr C, Brunner EJ, Head J, Marmot MG, Singh-Manoux A, Ritchie K, Shipley MJ, Kivimaki M. Alternative Healthy Eating Index and mortality over 18 y of follow-up: results from the Whitehall II cohort. <a href="https://academic.oup.com/ajcn/article-abstract/94/1/247/4597867"><em>The American journal of clinical nutrition</em></a>. 2011 May 25;94(1):247-53.</p>
-<p><em>¿Sabias Que? ¿Qué son los Carbohidratos (Cho)?</em> (2020). https://www.naturalclinic.cl/blog/carbohidratos.</p>
-<p>Mayo Foundation for Medical Education and Research. (2020, April 17). <em>Choose your carbs wisely</em>. Mayo Clinic. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/carbohydrates/art-20045705.</p>
-<p><em>Carbohydrates</em>. The Nutrition Source. (2019, May 22). https://www.hsph.harvard.edu/nutritionsource/carbohydrates/.</p>
-<p>Achiyan, Y. (2020, March 3). <em>What Are Monomers Of Carbohydrates?</em> Science Trends. https://sciencetrends.com/what-are-monomers-of-carbohydrates/.</p>
-<p><em>Disaccharide</em>. Biology Dictionary. (2019, October 5). https://biologydictionary.net/disaccharide/.</p>
-<p><em>Nomenclature of Carbohydrates (the Fundamentals)</em>. Organic Chemistry Tutor. (2020, November 29). https://www.organicchemistrytutor.com/topic/nomenclature-of-carbohydrates-the-fundamentals/#:~:text=Sugars%2C%20or%20carbohydrates%2C%20have%20two%20major%20functional%20groups%3A,functional%20groups%2C%20so%20we%20never%20focus%20on%20those.</p>
-<p>Szalay, J. (2015, December 10). <em>What Is Protein?</em> LiveScience. https://www.livescience.com/53044-protein.html.</p>
-<p>Embl-Ebi. (n.d.). Biomacromolecular structures. https://www.ebi.ac.uk/training/online/courses/biomacromolecular-structures/biomacromolecular-structures/.</p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
