@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marcuspierce.github.io</id>
     <title>毛胚房</title>
-    <updated>2021-05-18T23:23:09.876Z</updated>
+    <updated>2021-05-19T01:03:17.984Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://marcuspierce.github.io"/>
     <link rel="self" href="https://marcuspierce.github.io/atom.xml"/>
@@ -11,16 +11,31 @@
     <icon>https://marcuspierce.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛胚房</rights>
     <entry>
+        <title type="html"><![CDATA[电视房]]></title>
+        <id>https://marcuspierce.github.io/post/dian-shi-fang/</id>
+        <link href="https://marcuspierce.github.io/post/dian-shi-fang/">
+        </link>
+        <updated>2021-05-18T23:57:30.000Z</updated>
+        <content type="html"><![CDATA[<div align="center">
+<iframe height="450" src="http://tvdang.ddns.net/"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[风扇房]]></title>
+        <id>https://marcuspierce.github.io/post/fan/</id>
+        <link href="https://marcuspierce.github.io/post/fan/">
+        </link>
+        <updated>2021-05-18T23:45:50.000Z</updated>
+        <content type="html"><![CDATA[<div align="center">
+<iframe height="780" src="https://fan.elpsy.cn/"></iframe>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[空调房]]></title>
         <id>https://marcuspierce.github.io/post/air-conditioner/</id>
         <link href="https://marcuspierce.github.io/post/air-conditioner/">
         </link>
         <updated>2021-05-18T23:19:10.000Z</updated>
-        <summary type="html"><![CDATA[<p>本站已内置空调</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>本站已内置空调</p>
-<!-- more -->
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="https://ac.yunyoujun.cn"></iframe>]]></content>
+        <content type="html"><![CDATA[<div align="center">
+<iframe height="740" src="https://ac.yunyoujun.cn"></iframe>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[同一个世界，不同的糯米饭]]></title>
@@ -450,350 +465,6 @@ The protein does not feel pain but feels that part of itself is turning into ami
 &quot;So this is trypsin.&quot; He thought.<br>
 The protein is no longer protein, it begins to be absorbed by the intestinal cilia and little by little enters the blood vessels of this body.<br>
 &quot;My journey is over,&quot; protein thought.</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我如何使用 Teambition 进行任务管理]]></title>
-        <id>https://marcuspierce.github.io/post/how-to-use-teambition/</id>
-        <link href="https://marcuspierce.github.io/post/how-to-use-teambition/">
-        </link>
-        <updated>2021-04-12T07:16:02.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="导语">导语</h2>
-<p><strong>Teambition</strong> 是阿里巴巴旗下工作学习套件，包含了从看板、网盘，到文档、日历等各式功能，个人使用免费。</p>
-<p>其本质上是一款类 <strong>Trello</strong> 的任务管理看板应用，经过多年的迭代，从一个单纯的看板发展到如今的办公套件，发展路线和<strong>钉钉</strong>相似。事实上，这两款应用的确可以在日历等功能联动。除此之外，<strong>Teambition 网盘</strong>在与<strong>阿里网盘</strong>的内部竞争中宣告关闭，此后 <strong>Teambition</strong> 内部网盘功能也会直接接入阿里网盘。</p>
-<p>作为<strong>钉钉</strong>和<strong>阿里网盘</strong>两款软件的重度用户，在比较了 <strong>Trello</strong> 和 <strong>Teambition</strong> 后还是选择了 <strong>Teambition</strong>，原因不外乎国内服务本地化更好以及访问更稳定。我自己能轻松访问国外服务不代表我的团队成员都拥有这个能力，而且能用<strong>钉钉</strong>账号登陆也是加分项。</p>
-<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Trello.png" alt="Trello" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition.png" alt="Teambition" loading="lazy"></figure>
-<h2 id="看板">看板</h2>
-<p>新工具必然会伴随着学习成本，要熟悉 <strong>Teambition</strong> 首先就要熟悉其看板机制。</p>
-<p>如果你用过待办事项 TO-DO 类的工具，熟悉看板的使用原理应该不成问题。</p>
-<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Microsoft-To-Do.png" alt="Microsoft-To-Do" loading="lazy"></figure>
-<p>想象多条 To-do list 横向排开，每一列都有着其对应的职能，而任务可以在不同的列之间随意拖动。</p>
-<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/List-example.png" alt="List-example" loading="lazy"></figure>
-<p>每个任务存在未完成与已完成的状态，可以被指派某个特定的执行人，可以添加截止时间、文档、备注等等。</p>
-<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Task-detail.png" alt="Task-detail" loading="lazy"></figure>
-<h2 id="开始使用">开始使用</h2>
-<p>创建你的第一个看板从建立一个「项目空间」开始。</p>
-<p><strong>Teambition</strong> 提供了多种模版可供参考，以「团队日常」模版为例</p>
-<figure data-type="image" tabindex="6"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Team-routine.png" alt="Team-routine" loading="lazy"></figure>
-<p>项目根据团队成员的名字被区分成了「<strong>🙍 Alice</strong>」「<strong>🙎‍♂️ Ted</strong>」「」「<strong>🏄‍♂️ Jack</strong>」，每个人负责的任务被区分开来。</p>
-<p>如果任务是以流水线形式完成，可以通过拖拽将任务移交给另一个负责人。</p>
-<p><strong>Teambition</strong> 允许邀请他人加入项目进行合作，每个人的权限可以被单独设定。</p>
-<hr>
-<p>现在你已经对看板系统建立了初步的了解，接下来我将向你展示我是如何使用 <strong>Teambition</strong> 的看板系统构建自己的任务清单的。</p>
-<p>我个人倾向于使用多个不同的项目空间来管理我的不同需求。</p>
-<p>我常用的四个「项目空间」分别是：</p>
-<p>「个人安排」「内容创作」「影视作品」「游戏世界」</p>
-<h3 id="个人安排">「个人安排」</h3>
-<p>我将需要完成的任务按照紧急程度划分为四个区域：</p>
-<p>【<strong>Deadline</strong>】【<strong>Within a week</strong>】【<strong>Within a month</strong>】【<strong>Anytime</strong>】</p>
-<p>如果你在上文任务详情部分观察足够仔细，你可能记得每个任务的详细设置中就可以设置任务优先级，但是我并不准备在这里进行设置，具体原因会在下文中解释。</p>
-<p>根据每个任务紧急状态的变化，任务可以从最右边的最不紧急一路拖拽至最左边的最紧急。</p>
-<figure data-type="image" tabindex="7"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Personal-arrangement.png" alt="Personal-arrangement" loading="lazy"></figure>
-<p>只要你关注过任务管理系统，你一定知道 <strong>GTD - Getting Things Done</strong> 时间管理系统</p>
-<figure data-type="image" tabindex="8"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/kwDfWE.png" alt="kwDfWE" loading="lazy"></figure>
-<p><strong>Teambition</strong> 非常适合用作 GTD 工具，但是我个人处理日常工作其实不需要一套如此详细的管理系统。</p>
-<p>对我来说，根据项目 Deadline 划分的紧急程度优先级足够浅显易懂也更容易执行，将其以列表形式分组也避免了切换优先级时需要进入重新任务设置，拖动的操作更加直观也更符合直觉。</p>
-<p>此外，因为打勾标记完成的任务会变灰沉底而不是直接删除，你还可以追踪哪些任务可以被提前完成，多少任务到了截止日才被完成，以此来改进自己的时间管理安排。</p>
-<h3 id="内容创作">「内容创作」</h3>
-<figure data-type="image" tabindex="9"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Content-creation.png" alt="Content-creation" loading="lazy"></figure>
-<p>本项目的分类来自 <strong>Teambition</strong> 提供的模版。</p>
-<p>你可以发现，「内容创作」的任务完成逻辑相比起「个人安排」有所不同。</p>
-<p>任务被完成后不仅会被打勾标记完成，还会被移到**【创作完成】**分组。</p>
-<p>对于这套根据任务状态而不是紧急程度的分组方式，所有被完成的任务会集中在同一分组下，方便管理与积累成就感，我也可以追踪每个任务的进度。</p>
-<h3 id="游戏世界">「游戏世界」</h3>
-<figure data-type="image" tabindex="10"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Game-world.png" alt="Game-world" loading="lazy"></figure>
-<h3 id="影视作品">「影视作品」</h3>
-<p>本项目的分类逻辑与「游戏世界」基本相同，但是在视图上有着很大的区别。</p>
-<figure data-type="image" tabindex="11"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Video-list.png" alt="Video-list" loading="lazy"></figure>
-<p>因为影单的分类通常较为固定，块之间不需要频繁的拖动，所以我使用了竖向视图。<br>
-这样的排序方式更加传统，添加内容也更方便。由于我之前的片单分散在各大视频网站以及豆瓣，所以这个项目仍在施工中。</p>
-<h3 id="单独项目">单独项目</h3>
-<p>有时会有单个需要大量工作的 Project，这种情况可以考虑专门为单个 Project 创建项目</p>
-<figure data-type="image" tabindex="12"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition-Inquiry.png" alt="Teambition-Inquiry" loading="lazy"></figure>
-<p>项目成员两名，开始时有五个任务。其中四个任务是研究课题，每人负责两个。</p>
-<figure data-type="image" tabindex="13"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition-note.png" alt="Teambition-note" loading="lazy"></figure>
-<p>为了方便整理资料，我将每个小课题所使用的参考文献和总结摘要放在了 <strong>Teambition</strong> 的笔记页。</p>
-<p>所使用的文献资料可以直接上传到项目文件中</p>
-<figure data-type="image" tabindex="14"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition-%20files.png" alt="Teambition-files" loading="lazy"></figure>
-<p>项目成员可以直接在 <strong>Teambition</strong> 中查看 PDF 并进行评论。</p>
-<figure data-type="image" tabindex="15"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition-%20document-%20preview.png" alt="Teambition-document-preview" loading="lazy"></figure>
-<p>为方便查阅，我也将参考文献与文档附在对应任务的备注和文件中。</p>
-<figure data-type="image" tabindex="16"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition-task-detail.png" alt="Teambition-task-detail" loading="lazy"></figure>
-<figure data-type="image" tabindex="17"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Teambition-task-file.png" alt="Teambition-task-file" loading="lazy"></figure>
-<p>这样就完成了一套完整的团队协作工作流，每个项目成员都能直观的了解任务目前的进度，并实时共享信息进行协作。</p>
-<h2 id="后记">后记</h2>
-<p><strong>Teambition</strong> 于 2018 年 4 月被阿里巴巴收购。</p>
-<p>创始人@齐俊元 毕业于上海交通大学信息管理与信息系统专业，本人也已入驻少数派。</p>
-<figure data-type="image" tabindex="18"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Qi-Junyuan.png" alt="Qi-Junyuan" loading="lazy"></figure>
-<p>感谢你看到这里，祝你拥有美好的一天。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple生态下的开源笔记 - FSNotes]]></title>
-        <id>https://marcuspierce.github.io/post/fsnotes/</id>
-        <link href="https://marcuspierce.github.io/post/fsnotes/">
-        </link>
-        <updated>2021-04-06T05:41:45.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="介绍">介绍</h2>
-<p>FSNotes 是一款支持 macOS 和 iOS 的开源笔记软件。<br>
-官方列出了以下主要特点</p>
-<blockquote>
-<p>Markdown 优先，支持纯文本和 RTF 文件<br>
-轻量流畅，10k+ 文件仍然运行良好<br>
-iCloud Drive 或 Dropbox 同步（任何同步盘）<br>
-多文件夹存储<br>
-操作以键盘为中心，快捷键启发自 nvALT<br>
-自适应双窗格视图，可选垂直或水平排布<br>
-外部编辑器支持，无缝实时同步<br>
-支持超过 170 种编程语言的代码高亮<br>
-支持行内图像<br>
-支持标签<br>
-支持笔记跳转 [[双方括号]]<br>
-支持固定笔记<br>
-支持笔记快捷复制到剪贴板<br>
-黑暗模式<br>
-AES-256 加密<br>
-支持 Mermaid 与 MathJax<br>
-可选的 Git 版本控制和备份</p>
-</blockquote>
-<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/macOS-and-iOS.png" alt="macOS-and-iOS" loading="lazy"><br>
-软件大小仅 13.5 MB，但功能齐全。<br>
-macOS 版完全免费，但提供 Mac App Store 付费下载，用于支持作者开发<br>
-iOS 版付费买断，国区售价¥18。可以选择使用云服务同步到 iOS 后使用其他支持Markdown 的软件进行编辑查看。</p>
-<h2 id="安装">安装</h2>
-<p>macOS端可以使用 Homebrew 进行安装</p>
-<pre><code>brew install fsnotes
-</code></pre>
-<p>或在 GitHub Releases 界面下载<br>
-<a href="https://github.com/glushchenko/fsnotes/releases">GitHub Releases</a></p>
-<h2 id="使用">使用</h2>
-<p>完成安装后，软件内置非常详细的英文使用教学。<br>
-<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Built-in%20tutorial.png" alt="Built-in tutorial" loading="lazy"><br>
-笔者对其进行了翻译，并且在 GitHub 提交了希望增加多语言支持的 Issues<br>
-<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/GitHub%20Issue.png" alt="GitHub-Issue" loading="lazy"></p>
-<p>接下来是本人翻译的使用教学</p>
-<h3 id="1-引言">1. 引言</h3>
-<p>嗨，我的名字是 Oleksandr，我是这个程序的作者。几年前，我发现我最喜欢的笔记应用 nvALT 不再启动了。</p>
-<p>现有的 macOS 和 iOS 替代方案都不适合我，因为我已经当了很多年开发者，所以我尝试编写自己的解决方案。2017年夏天，我在 GitHub 上公布了 FSNotes 的源代码。这是一个糟糕的应用程序。很烂，功能也差。但我没有放弃，贡献者们也没有。</p>
-<p>现在，FSNotes 已被翻译成 12 种语言，使用者遍布全球。功能数量超过一百个，其中还有几十个是独有的。</p>
-<p>如果您喜欢此应用程序，请支持开发。在App Store购买 <a href="https://apps.apple.com/app/fsnotes/id1277179284">Mac App Store</a> 以及在 <a href="https://apps.apple.com/app/fsnotes-manager/id1346501102">AppStore</a> 获得移动版本的FSNotes。</p>
-<p>谨致问候，<br>
-FSNotes 开发者，Oleksandr Hlushchenko<br>
-邮件: support@fsnot.es</p>
-<h3 id="2-链接">2. 链接</h3>
-<p>[[1. 引言]]<br>
-[[2. 链接]]<br>
-[[3. 快捷键]]<br>
-[[4. 侧边栏]]<br>
-[[5. 标签和子标签]]<br>
-[[6. Mermaid 与 MathJax]]<br>
-[[7. 基于 Git 的版本控制]]<br>
-[[8. 容器]]<br>
-[[9. GitHub Flavored Markdown]]<br>
-注：以上内容只能在 FSNotes 软件中点击跳转</p>
-<p>官方网站：https://fsnot.es<br>
-Issues：https://github.com/glushchenko/fsnotes/issues<br>
-Wiki：https://github.com/glushchenko/fsnotes/wiki<br>
-公告：https://twitter.com/fsnotesapp</p>
-<h3 id="3-快捷键">3. 快捷键</h3>
-<p>FSNotes 支持纯键盘操作，是一款快捷键友好的应用。</p>
-<p>您必须学会的最重要的组合键是：</p>
-<p><code>cmd - backtick</code> - 用 CMD+反单引号 (TAB上面那个) 禁用/启用预览模式。</p>
-<p>替代方案: 您可以也可以通过菜单栏中的<strong>视图-切换预览</strong>来完成以上操作 <code>View - Toggle Preview</code></p>
-<h4 id="全局">全局</h4>
-<ul>
-<li><code>cmd + option + shift + L</code> - 打开主窗口并聚焦搜索栏</li>
-<li><code>cmd + option + shift + n</code> - 保存剪贴板</li>
-<li><code>enter</code> - 向右移动文件夹层级（向下）; 侧边栏 &gt; 笔记列表 &gt; 笔记</li>
-<li><code>cmd + enter</code> - 向左移动文件夹层级（向上）; 笔记 &gt; 笔记列表 &gt; 侧边栏</li>
-</ul>
-<h4 id="搜索栏">搜索栏</h4>
-<ul>
-<li><code>down arrow</code> - 用下箭头将焦点移到笔记列表上</li>
-<li><code>enter</code> - 回车新建笔记</li>
-</ul>
-<h4 id="主窗口">主窗口</h4>
-<ul>
-<li><code>esc</code> - 将光标移到搜索栏并清屏（不删除编辑内容）</li>
-<li><code>cmd + L</code> - 聚焦搜索栏</li>
-<li><code>tab</code> - TAB转到下一区域</li>
-<li><code>cmd + backtick</code> - CMD+反单引号 预览模式 (仅限 markdown)</li>
-<li><code>up, down arrows</code> - 下箭头选择笔记</li>
-<li><code>cmd + j</code> - 下一篇笔记</li>
-<li><code>cmd + k</code> - 上一篇笔记</li>
-</ul>
-<h4 id="笔记列表">笔记列表</h4>
-<ul>
-<li><code>cmd + delete</code> - 删除笔记</li>
-<li><code>cmd + r</code> - 重命名笔记</li>
-<li><code>cmd + 8</code> - 固定笔记</li>
-<li><code>cmd + 7</code> - 去除加密（解密之前加密的笔记）</li>
-<li><code>cmd + n</code> - 新建笔记</li>
-<li><code>cmd + shift + n</code> - 新建 RTF</li>
-<li><code>ctrl + cmd + e</code> – 在外部编辑器中打开所选内容</li>
-<li><code>ctrl + cmd + o</code> – 在 Finder 中显示所选内容</li>
-<li><code>shift + cmd + m</code> – 在存储中移动所选笔记</li>
-<li><code>shift + cmd + b</code> – 隐藏侧边栏</li>
-<li><code>cmd + s</code> – 将修订版本保存在 Git 中</li>
-<li><code>cmd + d</code> – 创建笔记副本</li>
-<li><code>cmd + alt + l</code> - 加密/解密笔记（AES 256）</li>
-</ul>
-<h4 id="编辑">编辑</h4>
-<ul>
-<li><code>fn + f5</code> - 自动完成笔记名称</li>
-<li><code>cmd + `</code>，或点击 <code>View - Toggle preview</code> - 用于启用或禁用markdown预览</li>
-</ul>
-<h3 id="4-侧边栏">4. 侧边栏</h3>
-<p>要切换项目和标签侧边栏按钮 <code>control + cmd + shift + b</code></p>
-<p>您可以选择和过滤无限制的项目和标签。</p>
-<h4 id="每个子文件夹都是一个项目">每个子文件夹都是一个项目</h4>
-<p>在您的存储空间中创建无限制的文件夹。右键单击根文目录(<code>Documents</code>) 并单击“新建文件夹” <code>⌥ option + ⇧ shift + n</code>.</p>
-<p>每个项目都有自己的设置，右键单击项目 - &quot;显示视图选项&quot; <code>cmd + shift + ,</code>.</p>
-<figure data-type="image" tabindex="1"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/aEpF5U.jpg" alt="View" loading="lazy"></figure>
-<p>您可以配置排序、方向、可见性设置。</p>
-<figure data-type="image" tabindex="2"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/8SI0z8.jpg" alt="Preference" loading="lazy"></figure>
-<h3 id="5-标签和子标签">5. 标签和子标签</h3>
-<p>FSNotes version 4 带来了一个令人惊叹的行内标签系统。只需在文字前面加上井号 (#)即可为笔记添加标签。像这样： #hello 。或者，像这样为它们添加子标签： #hello/world 。您能给您的笔记贴多厚的标签？像 #unlimited/sub/tags 。标签会自动完成。输入井号 (#)和标签的第一个字符，然后：</p>
-<figure data-type="image" tabindex="3"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/980h2m.jpg" alt="Hello" loading="lazy"></figure>
-<p>很好！还有别的。每个项目都有自己的标签命名空间。例如，选择“存档”时，仅显示“存档”的笔记中的标签。</p>
-<p>在侧边栏选择的同时按住<code>cmd</code>可以多选多个项目和标签。<br>
-<img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/Dw6q1e.jpg" alt="Tags" loading="lazy"></p>
-<h3 id="6-mermaid-与-mathjax">6. Mermaid 与 MathJax</h3>
-<h4 id="mermaid-流程图示例">Mermaid 流程图示例</h4>
-<p>支持文档：https://mermaidjs.github.io</p>
-<pre><code class="language-mermaid">sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice-&gt;&gt;John: Hello John, how are you?
-    loop Healthcheck
-        John-&gt;&gt;John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts &lt;br/&gt;prevail!
-    John--&gt;&gt;Alice: Great!
-    John-&gt;&gt;Bob: How about you?
-    Bob--&gt;&gt;John: Jolly good!
-</code></pre>
-<h4 id="mathjax-数学公式示例">MathJax 数学公式示例</h4>
-<p>支持文档：https://www.mathjax.org</p>
-<blockquote>
-<p>请启用菜单栏中的：视图 &gt; Preview MathJax</p>
-</blockquote>
-<p>当 ((<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mi mathvariant="normal">≠</mi><mn>0</mn></mrow><annotation encoding="application/x-tex">a \ne 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel"></span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>))，有两种解法可用于 $$ax^2 + bx + c = 0$$ 它们是</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.276389em;vertical-align:-0.686em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.590389em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathdefault">a</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord mathdefault">b</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">±</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.913389em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">4</span><span class="mord mathdefault">a</span><span class="mord mathdefault">c</span></span></span><span style="top:-2.873389em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12661100000000003em;"><span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mord">.</span></span></span></span></span></p>
-<h3 id="7-基于-git-的版本控制">7. 基于 Git 的版本控制</h3>
-<p>使用 <code>cmd + s</code> 快捷键来保存笔记：</p>
-<figure data-type="image" tabindex="4"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/N6GLic.jpg" alt="Save" loading="lazy"></figure>
-<p>并在菜单栏恢复到历史版本：</p>
-<figure data-type="image" tabindex="5"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/wuxpIT.jpg" alt="History" loading="lazy"></figure>
-<h4 id="自动备份所有笔记">自动备份所有笔记</h4>
-<p>在偏好设置中配置：</p>
-<figure data-type="image" tabindex="6"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/b0YI5D.jpg" alt="Backup" loading="lazy"></figure>
-<p>例如，每小时进行一次备份。</p>
-<h4 id="您还可以备份备份">您还可以备份备份 🤪</h4>
-<p>毕竟再安全也不为过。</p>
-<figure data-type="image" tabindex="7"><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/I7YzPX.jpg" alt="BackupBackup" loading="lazy"></figure>
-<h3 id="8-容器">8. 容器</h3>
-<p>什么是容器？“容器”是存放您的文件的文件夹。容器保存一个笔记中使用的文本和其他资源。当然，您可以选择不使用容器。打开偏好设置-&gt; 基本-&gt; 容器并选择“无”。笔记将以纯文本、 Markdown 或 RTF 格式存储。</p>
-<p>我建议对敏感数据使用 TextBundle 容器和加密 TextBundle 容器。请继续阅读</p>
-<h4 id="textbundle-容器">TextBundle 容器</h4>
-<p>文件扩展名 – <code>.textbundle</code></p>
-<p>TextBundle – 这种格式旨在在应用程序之间交换纯文本文件(如 Markdown 或 RTF)时提供更无缝的用户体验。 http://textbundle.org</p>
-<p>例如，一个 Markdown 文件可能包含对外部图像的引用。当从 Markdown 编辑器发送这样的文件到预览器时，用户必须明确指定每一个图像文件的位置。这就是 TextBundle 派上用场的地方。通过将 Markdown 文本和所有引用的图像打包在一个文件中，Text Bundle 提供更方便的体验。</p>
-<h4 id="加密-textbundle-容器">加密 TextBundle 容器</h4>
-<p>文件扩展名 – <code>.etp</code>.</p>
-<p>加密文本包用于笔记加密。它是加密的文本包（压缩包）并用 RNCryptor 加密。RNCryptor 是一种跨平台的数据格式，有很多实现方案。在软件后台，我们有：</p>
-<p>AES-256 加密<br>
-CBC 模式<br>
-PBKDF2 密码延伸<br>
-密码加盐<br>
-随机 IV<br>
-加密后哈希 HMAC<br>
-开放和跨平台</p>
-<p>您可以使用 Python 或 Ruby、JS 等解密任何 FSNotes 笔记(完整列表可在此处找到)<br>
-解压缩并用普通的文本格式快活吧。</p>
-<h3 id="9-github-flavored-markdown">9. GitHub Flavored Markdown</h3>
-<h4 id="标题-h1-h6">标题 h1-h6</h4>
-<p>快捷键：<code>cmd + 1-6</code></p>
-<h4 id="图像">图像</h4>
-<p><img src="https://gitee.com/marcuspierce/image-hosting-service/raw/master/uPic/p1tpcg.png" alt="icon" loading="lazy"><br>
-快捷键：<code>cmd + shift + i</code></p>
-<h4 id="粗体-斜体-删除线">粗体、斜体、删除线</h4>
-<p><strong>粗体</strong><br>
-快捷键：<code>cmd + b</code></p>
-<p><em>斜体</em><br>
-快捷键：<code>cmd + i</code></p>
-<p><s>删除线</s><br>
-快捷键：<code>cmd + y</code></p>
-<h4 id="引用">引用</h4>
-<blockquote>
-<p>您可以引用<br>
-不止一行</p>
-</blockquote>
-<p>快捷键：<code>cmd + shift + u</code></p>
-<h4 id="代码块">代码块</h4>
-<p>Swift 示例：</p>
-<pre><code class="language-swift">public static func getHighlighter() -&gt; Highlightr? {
-    if let instance = self.hl {
-        return instance
-    }
-    
-    guard let highlightr = Highlightr() else {
-        return nil
-    }
-    
-    highlightr.setTheme(to: &quot;vs&quot;)
-    self.hl = highlightr
-    
-    return self.hl
-}
-</code></pre>
-<p>SQL 示例：</p>
-<pre><code class="language-sql">CREATE TABLE &quot;topic&quot; (
-    &quot;id&quot; serial NOT NULL PRIMARY KEY,
-    &quot;forum_id&quot; integer NOT NULL,
-    &quot;subject&quot; varchar(255) NOT NULL
-);
-ALTER TABLE &quot;topic&quot;
-ADD CONSTRAINT forum_id FOREIGN KEY (&quot;forum_id&quot;)
-REFERENCES &quot;forum&quot; (&quot;id&quot;);
-
--- Initials
-insert into &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)
-values (2, 'D''artagnian');
-</code></pre>
-<p>快捷键：<code>cmd + control + c</code></p>
-<h4 id="code-span">Code span</h4>
-<p><code>One line code span</code></p>
-<p>快捷键：<code>cmd + shift + c</code></p>
-<h4 id="列表-编号列表和待办事项">列表、编号列表和待办事项</h4>
-<ul>
-<li>列表</li>
-</ul>
-<p>快捷键：<code>control + L</code></p>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-</ol>
-<p>快捷键：<code>control + shift + L</code></p>
-<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5958177"><label class="task-list-item-label" for="task-item-5958177"> 付帐</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2801382"><label class="task-list-item-label" for="task-item-2801382"> 买水</label></li>
-</ul>
-<p>快捷键：<code>cmd + t</code></p>
-<h4 id="wiki-链接">Wiki 链接</h4>
-<p>添加 Wiki 链接 [[WikiLinks with emoji 😎]]</p>
-<p>快捷键：<code>cmd + 9</code></p>
-<h2 id="小结">小结</h2>
-<p>以上是 FSNotes 的使用教程，这篇教程将 FSNotes 的常用使用场景基本表现了出来，作为一款以 Markdown 为主的笔记软件，其优缺点都十分明显。<br>
-对于已经有 Markdown 使用经验的朋友，应该已经有了一套自己管理<code>.md</code>文件的工作流。但对于新手，通过一个更加类似传统笔记软件（Evernote，OneNote）的笔记软件来熟悉 Markdown 的使用可以是个非常友好的入门选择。</p>
 ]]></content>
     </entry>
 </feed>
